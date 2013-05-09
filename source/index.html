@@ -1,29 +1,65 @@
----
-layout: default
----
+<!doctype html>
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<html>
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+	<head>
+	
+		<!-- META -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes" /> 
+		
+		<link rel="stylesheet" media="screen" href="stylesheets/index-stylesheet.css" />
+		
+		<script type="text/javascript">
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-32375259-1']);
+			  _gaq.push(['_trackPageview']);
+			
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		</script>
+		<script type="text/javascript" src="/javascripts/libs/jquery-1.9.0.min.js"></script>		
+		<script src="/javascripts/nicemohawk.js"></script>
+
+		<title>Nice Mohawk</title>
+		
+	</head>
+	
+	<body lang="en">
+		<header id="header">
+			<span class="small"><h1><a href="/">Nice Mohawk</a></h1></span>
+			<span class="large"><img src="/images/nml-logo.png" height="300" width="406" /></span>
+			<nav>
+				<ul>
+					<li id="ita">
+						<a href="ita/">Ita</a>
+						<div class="popover">
+							<h2>Ita</h2>
+						</div>
+					</li>
+					<li id="blog">
+						<a href="blog/">Blog</a>
+						<div class="popover">
+							<h2>Blog</h2>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
+				<div class="container">
+					<div class = "company">
+						<p>Hi, we're Nice Mohawk. Thanks for stopping by. We make <a href="ita/">Ita</a>, a list-making app for the iPhone, iPad, and iPod Touch.</p>
+						<p>Ben Lachman and Robert Cantoni started Nice Mohawk in 2012. We create nice apps from the ground up. In 2013, we started a <a href="/blog">blog</a> to talk about things we like.</p>
+						<p>Sometimes companies hire us to make apps for them. If you'd like to talk about building an app with us, send an email to <a href="mailto:ideas@nicemohawk.com">ideas@nicemohawk.com</a>. Or see what we're up to on Twitter as <a href="http://www.twitter.com/nicemohawk">@nicemohawk</a>.</p>
+					</div>
+					<div class="divider"></div>
+				</div><!-- /container -->
+		<div id="copyright">Copyright &copy; 2013 Nice Mohawk Limited.</div>
+	</body>
+</html>

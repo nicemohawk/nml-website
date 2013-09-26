@@ -3,7 +3,7 @@ layout: post
 title: "Iteration and iOS 7"
 date: 2013-09-25 12:24
 comments: false
-categories: [Apple]
+categories: [Apple, iOS, Design]
 ---
 ###Bob
 iOS 7 changed a lot about the way iOS looks. I normally think of Apple as a company whose success is built on iteration — incremental improvements, building on each other year over year and maturing over time. A sudden, dramatic shift — like the one in iOS 7 — cuts against that grain.

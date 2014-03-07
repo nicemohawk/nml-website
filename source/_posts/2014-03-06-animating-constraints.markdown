@@ -4,7 +4,6 @@ title: "Animating Constraints"
 date: 2014-03-06 19:33
 comments: false
 categories: ["code", "Auto Layout"]
-published: false
 ---
 ###Ben
 

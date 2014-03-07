@@ -13,3 +13,5 @@ vendor
 node_modules
 source/stylesheets/screen.css
 source/stylesheets/octopress-stylesheet.css
+
+.preview-mode

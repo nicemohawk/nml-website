@@ -1,15 +1,16 @@
 ---
 layout: page
 title: "How to Build a Prototype"
-date: 2013-03-08 09:00
+date: 2014-03-07 11:30
+comments: false
+sharing: true
+footer: true
 ---
-####&#9997; This talk was recently presented at [CocoaConf Chicago](http://cocoaconf.com/chicago-2013/home) by Ben Lachman. Don’t hesitate to ask questions if you have them.
+####&#9997; This talk was recently presented at [CocoaConf Chicago](http://cocoaconf.com/chicago-2014/) by Ben Lachman. Don’t hesitate to ask questions if you have them.
 
-##[Slides]
+**Slides (PDF, 39.6 MB)**: [http://nicemohawk.com/talks/prototypes/how-to-build-a-prototype-ben-lachman.pdf](/talks/prototypes/how-to-build-a-prototype-ben-lachman.pdf)
 
-[http://nicemohawk.com/talks/prototypes/slides.pdf](PDF version)
-
-##[Session Notes]
+##Session Notes
 
 ###Wire Frames
 
@@ -43,11 +44,11 @@ Mac OS X Lion PSDs
 [http://dribbble.com/shots/234655-OSX-Lion-GUI-Download](http://dribbble.com/shots/234655-OSX-Lion-GUI-Download)
 
 **Taylor Ling** (Free)  
-Android Ice Cream Sandwich PSDs 3.0  
-[http://androiduiux.com/2012/08/15/android-icsjb-photoshop-gui-design-kit-free-download](http://androiduiux.com/2012/08/15/android-icsjb-photoshop-gui-design-kit-free-download/)
+Android UI Design Kit 4.3 (PSD/GIMP) 
+[http://androiduiux.com/2013/10/04/android-ui-design-kit-for-photoshop-and-gimp-4-3-free-download/](http://androiduiux.com/2013/10/04/android-ui-design-kit-for-photoshop-and-gimp-4-3-free-download/)
 
 **Android Design Elements** (Free)  
-Official Android UI elements.  Not quite as useful as a full PSD template, but good nonetheless.  Also provided as OmniGraffle stencils.  
+Official Android UI elements.  Not quite as useful as a full PSD template, but good nonetheless.  
 [http://developer.android.com/design/downloads](http://developer.android.com/design/downloads/index.html)
 
 **LiveView** (Free)  
@@ -64,14 +65,14 @@ Helps with creating clickable/tappable prototypes for iOS.  Let's you distribute
 On iPad prototypes.  Has a free iOS player app that can install prototypes created by the app.  
 [http://appcooker.com](http://appcooker.com)
 
-**Briefs 2** (Beta; Mac/iPad)  
+**Briefs 2**  (Mac w/iOS Client, $199)
 Advanced tool for creating complicated prototypes.  
 [http://giveabrief.com](http://giveabrief.com)
 
-##Contact Info
+###Contact Info
 
 **Ben Lachman**  
-**Nice Mohawk Limited, *Principal***  
+**Nice Mohawk Limited**  
 [http://nicemohawk.com](http://nicemohawk.com)  
 [ben@nicemohawk.com](mailto:ben@nicemohawk.com)  
 [@blach](http://twitter.com/blach)  

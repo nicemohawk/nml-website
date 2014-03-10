@@ -13,3 +13,11 @@ Slides (PDF, 3.8 MB): [http://nicemohawk.com/talks/text-kit/intro-to-text-kit-sl
 Sample code (54 KB): [http://nicemohawk.com/talks/text-kit/intro-to-text-kit-app-ben-lachman.zip](/talks/text-kit/intro-to-text-kit-app-ben-lachman.zip)
 
 Apple documentation: [Text Programming Guide for iOS](https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/CustomTextProcessing/CustomTextProcessing.html)
+
+##Contact Info
+
+**Ben Lachman**  
+**Nice Mohawk Limited**  
+[http://nicemohawk.com](http://nicemohawk.com)  
+[ben@nicemohawk.com](mailto:ben@nicemohawk.com)  
+[@blach](http://twitter.com/blach)  

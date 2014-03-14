@@ -15,9 +15,10 @@ Today’s quick tip: taking advantage of in-memory and on-disk caches when using
 It’s easy!
 
 **Step 1:** Set up an NSURLCache, probably in AppDelegate. No memory capacity, as AFNetworking already has AFImageCache for a memory cache:
-
+``` objc
     NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:0 diskCapacity:50 * 1024 * 1024 diskPath:nil];
     [NSURLCache setSharedURLCache:URLCache];
+```
 
 **Step 2:** When you’re about to send off an NSURL request, check the AFImageCache first:
 	

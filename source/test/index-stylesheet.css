@@ -198,7 +198,7 @@ nav ul li .popover {
 }
 
 nav ul li#ita>a     {
-	background-image: url(/images/ita-icon.png);
+	background-image: url(/images/ita-icon-270.png);
 	-webkit-background-size: 120px 120px;
 	background-size: 120px 120px;
 	-webkit-transition: all .1s ease-in-out;

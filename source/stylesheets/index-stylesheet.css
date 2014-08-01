@@ -16,12 +16,12 @@ h1,h2,h3,h4,h5,h6 {
 
 /* here begins our CSS */
 html { 
-	background:url(../images/background.jpg) repeat; 
+/* 	background:url(../images/background.jpg) repeat;  */
 }
 
 body {
-	background: #f4f1ea;
-	background-image: url(/images/background.jpg);
+	background: #d9d9de;
+/* 	background-image: url(/images/background.jpg); */
 	font-family: "AvenirNext-Regular","AvenirNext-Medium","Avenir","Corbel","Myriad Pro","Helvetica Neue","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,sans-serif;
 	font-size: 18px;
 	line-height: 28px;
@@ -38,7 +38,9 @@ body {
 }
 
 a {
-	color:#258fb8;
+/* 	color:#258fb8; */
+	color:#eb4c3b;
+
 	text-decoration:none;
 }
 
@@ -62,7 +64,8 @@ a:hover {
 
 #header a:hover {
 	text-decoration:none;
-	color:#258fb8;
+/* 	color:#258fb8; */
+	color:#eb4c3b;
 }
 
 h1 {
@@ -197,7 +200,7 @@ nav ul li .popover {
 }
 
 nav ul li#ita>a     {
-	background-image: url(/images/ita-icon.png);
+	background-image: url(/images/ita-icon-270.png);
 	-webkit-background-size: 120px 120px;
 	background-size: 120px 120px;
 	-webkit-transition: all .1s ease-in-out;
@@ -322,7 +325,7 @@ nav ul li#blog .popover {
     all and (min--moz-device-pixel-ratio: 1.5),
     all and (min-device-pixel-ratio: 1.5) {
 	body {
-		background-image:url(/images/background@2x.jpg);
-		background-size: 411px 155px;
+/* 		background-image:url(/images/background@2x.jpg); */
+/* 		background-size: 411px 155px; */
 	}
 }

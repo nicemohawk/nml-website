@@ -19,7 +19,10 @@ menu, footer, header, nav, section, summary, time, mark, audio, video {
 	border: 0;
 }
 
-html{ background:url(../images/background.jpg) repeat; }
+html { 
+	/* background:url(../images/background.jpg) repeat;  */
+	background: #d9d9de;
+}
 
 article, aside, canvas, figure, figure img, figcaption, hgroup,
 footer, header, nav, section, audio, video {
@@ -311,8 +314,10 @@ img.settings{ float: right; margin:0 0 0 10px; }
     all and (min-device-pixel-ratio: 1.5) {
 
 	body {
+/*
 		background-image:url(/images/background@2x.jpg);
 		background-size: 411px 155px;
+*/
 	}
 	.iosSlider .slider .item1 .inner {
 		background-image:  url(/images/ita/slides/slide-shadow-ipad@2x.png), url(/images/ita/slides/slide-1@2x.jpg);

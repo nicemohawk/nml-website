@@ -9,5 +9,5 @@ To celebrate the upcoming nerdery scheduled for June 10-14th somewhere near the 
 
 Seriously, if you didn’t purchase **1Password** due to it’s price tag before, you have half the reason to object to it that you did last week.
 
-[1Password for Mac](http://click.linksynergy.com/fs-bin/stat?id=HNXhMxdLAvQ&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252F1password-password-manager%252Fid443987910%253Fmt%253D12%2526uo%253D4%2526partnerId%253D30) ($24.99)  
-[1Password for iOS](http://click.linksynergy.com/fs-bin/stat?id=HNXhMxdLAvQ&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=https%253A%252F%252Fitunes.apple.com%252Fus%252Fapp%252F1password-password-manager%252Fid568903335%253Fmt%253D8%2526uo%253D4%2526partnerId%253D30) ($8.99)  
+[1Password for Mac](https://itunes.apple.com/us/app/1password-password-manager/id443987910) ($24.99)  
+[1Password for iOS](https://itunes.apple.com/us/app/1password-password-manager/id568903335) ($8.99)  

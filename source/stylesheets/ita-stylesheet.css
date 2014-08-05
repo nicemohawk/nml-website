@@ -32,12 +32,20 @@ footer, header, nav, section, audio, video {
 a img { border: 0; }
 
 body {
-	font-family:"AvenirNext-Regular","AvenirNext-Medium","Avenir","Corbel","Myriad Pro","Helvetica Neue","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,sans-serif;
+	font-family:"Helvetica Neue","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,sans-serif;
+/* 	font-family:"AvenirNext-Regular","AvenirNext-Medium","Avenir","Corbel","Myriad Pro","Helvetica Neue","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,sans-serif; */
 	font-size:18px;
 	line-height:28px;
 	font-weight:300;
 	color:#333;
 /* 	text-shadow: white 0 1px 0; */
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 /* DIVS */
@@ -154,7 +162,8 @@ body {
 			
 .iosSlider .slider .item .text2 span {
 	color: #fff;
-	font: normal 16px/20px "AvenirNext-Regular","AvenirNext-Medium","Avenir","Corbel","Myriad Pro","Helvetica Neue","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,sans-serif;
+	font: normal 16px/20px "Helvetica Neue","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,sans-serif;
+/* 	font: normal 16px/20px "AvenirNext-Regular","AvenirNext-Medium","Avenir","Corbel","Myriad Pro","Helvetica Neue","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,sans-serif; */
 	text-shadow: none;
 }
 			
@@ -212,10 +221,10 @@ body {
 img.settings{ float: right; margin:0 0 0 10px; }
 
 .ita-image {
-	background-image: url(/images/meet-ita.png);
-	width: 700px; 
-	height: 350px;
-	background-size: 700px 350px;
+	background-image: url(/images/ita-icon-256.png);
+	width: 256px; 
+	height: 256px;
+	background-size: 256px 256px;
 	padding: 0;
 	margin-left: auto;
 	margin-right: auto;
@@ -232,7 +241,7 @@ img.settings{ float: right; margin:0 0 0 10px; }
 /* iPhone (Portrait | Landscape) */
 @media only screen and (max-width: 767px) {
 	.ita-image {
-		background-image: url(/images/meet-ita-vertical.png);
+		background-image: url(/images/ita-icon-512.png);
 		height: 418px;
 		width: 310px;
 		background-size: 310px 418px;
@@ -361,7 +370,7 @@ img.settings{ float: right; margin:0 0 0 10px; }
 		background-size: 713px auto, 705px auto;
 	}
 	.ita-image {
-		background-image: url(/images/meet-ita@2x.png);
+		background-image: url(/images/ita-icon-256@2x.png);
 	}
 }
 

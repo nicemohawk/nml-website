@@ -43,9 +43,23 @@ body {
 
 h1 {
 	font-size: 48px;
+	line-height: 60px;
 	font-weight: 300;
 	text-align: center;
-	padding-bottom: 20px;
+}
+
+.ita-image {
+	background-image: url(/images/ita-icon-256.png);
+	background-repeat: no-repeat;
+	width: 256px; 
+	height: 256px;
+	background-size: 256px 256px;
+
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* DIVS */
@@ -58,14 +72,14 @@ h1 {
 
 .description-content a { 
 	font-weight:300; 
-	color:#258fb8;
+	color:#eb4c3b;
 	text-decoration:none;
 }
 .description-content a:hover {
 	text-decoration: underline;
 }
 
-.about img{ margin-bottom:0px; width:750px; height:auto;}
+/* .about img{ margin-bottom:0px; width:404px; height:auto;} */
 .about {font-size:18px; padding-bottom: 0;}
 .about p { padding-bottom:35px; }
 
@@ -218,17 +232,7 @@ h1 {
 	background-image: url(/images/ita/slides/slide-shadow-ipad.png), url(/images/ita/slides/slide-4.jpg);
 }
 
-img.settings{ float: right; margin:0 0 0 10px; }
-
-.ita-image {
-	background-image: url(/images/ita-icon-256.png);
-	width: 256px; 
-	height: 256px;
-	background-size: 256px 256px;
-	padding: 0;
-	margin-left: auto;
-	margin-right: auto;
-}
+/* img.settings{ float: right; margin:0 0 0 10px; } */
 
 /* iPad Portrait */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -240,13 +244,15 @@ img.settings{ float: right; margin:0 0 0 10px; }
 
 /* iPhone (Portrait | Landscape) */
 @media only screen and (max-width: 767px) {
+/*
 	.ita-image {
-		background-image: url(/images/ita-icon-512.png);
+		background-image: url(/images/ita-icon-256.png);
 		height: 418px;
 		width: 310px;
 		background-size: 310px 418px;
 		margin: 10px auto;
 	}
+*/
 
 	.iosSlider .slider .item .inner {
 		width: 320px;
@@ -295,10 +301,6 @@ img.settings{ float: right; margin:0 0 0 10px; }
 		background-image: url(/images/ita/slides/slide-shadow-iphone@2x.png), url(/images/ita/slides/slide-4-iphone@2x.jpg);
 		background-size: 320px auto, 312px auto;
 	}
-	.ita-image {
-		background-image: url(/images/meet-ita-vertical@2x.png);
-	}
-
 }
 
 /* iPhone Landscape */
@@ -325,10 +327,14 @@ img.settings{ float: right; margin:0 0 0 10px; }
 		padding: 0;
 	}
 
-	.centered-image.ita { padding:0; }
+	.centered-image.ita { 
+		padding:0; 
+	}
+
 	img {
 		padding: 0;
 	}
+	
 	.ita img{ padding: 20px 0; width: 100%; height: auto;}	
 	.about img{ width: 100%; height: auto; }
 
@@ -347,11 +353,8 @@ img.settings{ float: right; margin:0 0 0 10px; }
     all and (min--moz-device-pixel-ratio: 1.5),
     all and (min-device-pixel-ratio: 1.5) {
 
-	body {
-/*
-		background-image:url(/images/background@2x.jpg);
-		background-size: 411px 155px;
-*/
+	.ita-image {
+		background-image: url(/images/ita-icon-256@2x.png);
 	}
 	.iosSlider .slider .item1 .inner {
 		background-image:  url(/images/ita/slides/slide-shadow-ipad@2x.png), url(/images/ita/slides/slide-1@2x.jpg);
@@ -369,9 +372,6 @@ img.settings{ float: right; margin:0 0 0 10px; }
 		background-image: url(/images/ita/slides/slide-shadow-ipad@2x.png), url(/images/ita/slides/slide-4@2x.jpg);
 		background-size: 713px auto, 705px auto;
 	}
-	.ita-image {
-		background-image: url(/images/ita-icon-256@2x.png);
-	}
 }
 
 /* iPhone Retina images */
@@ -381,6 +381,10 @@ img.settings{ float: right; margin:0 0 0 10px; }
     all and (max-width: 767px) and (min--moz-device-pixel-ratio: 1.5),
     all and (max-width: 767px) and (min-device-pixel-ratio: 1.5) {
     
+	.ita-image {
+		background-image: url(/images/ita-icon-256@2x.png);
+	}
+
     .iosSlider {
     	height:547px;
     }
@@ -399,9 +403,6 @@ img.settings{ float: right; margin:0 0 0 10px; }
 	.iosSlider .slider .item4 .inner {
 		background-image: url(/images/ita/slides/slide-shadow-iphone@2x.png), url(/images/ita/slides/slide-4-iphone@2x.jpg);
 		background-size: 320px auto, 312px auto;
-	}
-	.ita-image {
-		background-image: url(/images/meet-ita-vertical@2x.png);
 	}
 }
 

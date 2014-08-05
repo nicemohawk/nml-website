@@ -15,19 +15,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* here begins our CSS */
-html { 
-/* 	background:url(../images/background.jpg) repeat;  */
-}
 
 body {
 	background: #d9d9de;
-/* 	background-image: url(/images/background.jpg); */
 	font-family: "AvenirNext-Regular","AvenirNext-Medium","Avenir","Corbel","Myriad Pro","Helvetica Neue","HelveticaNeue-Light","Helvetica Neue Light",Helvetica,sans-serif;
 	font-size: 18px;
 	line-height: 28px;
 	font-weight: normal;
 	color: #333;
-/* 	text-shadow: white 0 1px 0; */
 }
 
 .container {
@@ -38,9 +33,7 @@ body {
 }
 
 a {
-/* 	color:#258fb8; */
 	color:#eb4c3b;
-
 	text-decoration:none;
 }
 

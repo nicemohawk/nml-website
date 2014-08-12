@@ -34,7 +34,7 @@ Ita 2.0 has a new feature called "edit mode" that lets users switch between edit
   - **Delete items**:  
 	Swipe on an item, then tap delete button; also available in "global editing" mode, where pressing the delete button has the same result as a swipe (and gives you the "more" option!? Understandable, but not a super elegant bit of UI —Bob).
 - **Additional Functions**:  
-	Reminders has a "More" button that allows one to add recurrence or date/time alerts to an item. This is available by pressing the detail disclosure button while editing an item (which is a really neat bit of UI) or by swiping left on an item and tapping "more.”  
+	Reminders has a "More" button that allows one to add recurrence or date/time alerts to an item. This is available by pressing the detail disclosure button while editing an item (which is a really neat bit of UI) or by swiping left on an item and tapping "more."  
 
 &nbsp;
 ## A Custom Gesture-Based Interface: Clear

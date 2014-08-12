@@ -20,8 +20,8 @@ Ita 2.0 has a new feature called "edit mode" that lets users switch between edit
 
 ####&#9997; Ben: But so many people use it to make lists! We all know they're doing it wrong, but…
 
-####&#9997; Bob: Good point, they should use Ita. While you can use a text editor to make lists (I do it all the time on my Mac), it's easier to make a list on iOS using a dedicated list app than a text editor for a few reasons (c.f. editing text on iOS). But dedicated list apps generally share user interface patterns that make comparing them to each other helpful and very different than comparing text editors. So let's call Reminders "The System Standard List App".
-&nbsp; 
+####&#9997; Bob: Good point. 1) They should use Ita. 2) While you can use a text editor to make lists (I do it all the time on my Mac), it's easier to make a list on iOS using a dedicated list app than a text editor for various reasons we should avoid going into now. Dedicated list apps generally share user interface patterns that make comparing them to each other both more informative than and very different from comparing text editors. So let's call Reminders "The System Standard List App."
+ 
 ## The System Standard List App: <del>Notes</del> Reminders
   - **Create new items**:  
 	When not editing, tap anywhere at the bottom of the list. While editing an item, tap only on the single empty line immediately after the last item on the list. 
@@ -32,9 +32,9 @@ Ita 2.0 has a new feature called "edit mode" that lets users switch between edit
   - **Mark items completed**:  
 	Tap the dot next to item text in left-hand margin. Available while editing an item for all items *except* the one being edited. Not available in "global editing" mode.
   - **Delete items**:  
-	Swipe on an item, then tap delete button; also available in "global editing" mode, where pressing the delete button has the same result as a swipe (and gives you the "more" option!?). (Yeah, understandable, but not a super elegant bit of UI —Bob)
+	Swipe on an item, then tap delete button; also available in "global editing" mode, where pressing the delete button has the same result as a swipe (and gives you the "more" option!? Understandable, but not a super elegant bit of UI —Bob).
 - **Additional Functions**:  
-	Reminders has a "More" button that allows one to add recurrence or date/time alerts to an item. This is available by pressing the detail disclosure button while editing an item (which is a really neat bit of UI) or by swiping left on an item and tapping "more".  
+	Reminders has a "More" button that allows one to add recurrence or date/time alerts to an item. This is available by pressing the detail disclosure button while editing an item (which is a really neat bit of UI) or by swiping left on an item and tapping "more.”  
 
 &nbsp;
 ## A Custom Gesture-Based Interface: Clear
@@ -98,11 +98,11 @@ I hope we've done an OK job of documenting how these other apps work; we're not 
 
 What we can share are some of the principles we use when making design decisions, apart from the specifics of the feature we're designing.
 
-- Know Your Audience. We want Ita to be useful for casual users and, just as importantly, for power users who are distracted. Ita's not OmniFocus; it's not even as complicated as Reminders. We want to create a place for lists that can be checked off while you're packing or at the store (Ita's average session length is less than 30 seconds per use). Simplicity isn't just for casual users; simplicity is also about providing a clear experience for users who might need to focus on stuff other than our app.
+- **Know Your Audience.** We want Ita to be useful for casual users and, just as importantly, for power users who are distracted. Ita's not OmniFocus; it's not even as complicated as Reminders. We want to create a place for lists that can be checked off while you're packing or at the store (Ita's average session length is less than 30 seconds per use). Simplicity isn't just for casual users; simplicity is also about providing a clear experience for users who might need to focus on stuff other than our app.
 
-- Leave Room to Grow. We have a current feature set that we're happy with, but we're also planning for future releases. We want to leave space for adding features to the app. If we make the app as complicated as it can comfortably be, then adding new features will make the app feel cramped or require a redesign that will take development resources and require reeducating users. (And those reeducation camps are expensive.)
+- **Leave Room to Grow.** We have a current feature set that we're happy with, but we're also planning for future releases. We want to leave space for adding features to the app. If we make the app as complicated as it can comfortably be, then adding new features will make the app feel cramped or require a redesign that will take development resources and require reeducating users. (And those reeducation camps are expensive.)
 
-- Be Like Apple. We want to follow standard iOS conventions all the time, unless we have a good reason not to. Yes, part of that means reading the [HIG](https://developer.apple.com/library/iOS/design/index.html#//apple_ref/doc/uid/TP40013289). The other part is looking closely at user interaction in stock apps and trying to understand how and why they work the way they do. Mail and Reminders are great examples for us — Mail in particular is usually on the cutting edge of Apple's public UI innovations.
+- **Be Like Apple.** We want to follow standard iOS conventions all the time, unless we have a good reason not to. Yes, part of that means reading the [HIG](https://developer.apple.com/library/iOS/design/index.html#//apple_ref/doc/uid/TP40013289). The other part is looking closely at user interaction in stock apps and trying to understand how and why they work the way they do. Mail and Reminders are great examples for us — Mail in particular is usually on the cutting edge of Apple's public UI innovations.
 
 ###Ben
 If you haven't already used Ita 2.0, [go get it](https://itunes.apple.com/us/app/ita-list-app-to-do-list-making./id528185276). We're really happy with the interactions and the new features, but we like to hear feedback on our design choices. Tweet us [@nicemohawk](http://twitter.com/nicemohawk) and we can have a conversation 140 characters at a time.

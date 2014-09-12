@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 ---
-####&#9997; Abstract: A dive into Auto Layout to look at best practices and ways of adopting Auto Layout without going crazy. This talk was recently presented at [CocoaConf Chicago](http://cocoaconf.com/chicago-2014/) by Ben Lachman. Don’t hesitate to ask questions if you have them.
+####&#9997; Abstract: A dive into Auto Layout to look at best practices and ways of adopting Auto Layout without going crazy. This talk was presented at [CocoaConf Chicago](http://cocoaconf.com/chicago-2014/) by Ben Lachman. Don’t hesitate to ask questions if you have them.
 
 **Slides (PDF, 10.4 MB)**: [http://nicemohawk.com/talks/auto-layout/auto-layout-is-a-unicorn-ben-lachman.pdf](/talks/auto-layout/auto-layout-is-a-unicorn-ben-lachman.pdf)
 

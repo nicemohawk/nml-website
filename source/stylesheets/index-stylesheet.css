@@ -40,7 +40,7 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-	
+
 #header {
 	padding: 40px 0;
 	text-align: center;
@@ -99,7 +99,7 @@ h2 {
 	margin: 0px auto;
 	position: relative;
 	text-align: center;
-	width: 100%;	
+	width: 100%;
 	font-size: 40px;
 	content: "\269B \269B \269B";
 }
@@ -109,7 +109,7 @@ h2 {
 /* iPhone Landscape + Skinny Windows */
 @media screen and (min-width: 480px) and (max-width: 767px) {
 	#header{
-		height:120px;
+		/*height:120px;*/
 		padding:15px 0;
 		line-height:30px
 	}
@@ -144,7 +144,7 @@ h2 {
 		padding: 50px 0 0 0;
 	}
 	#header {
-		height:80px;
+		/*height:80px;*/
 		position:relative;
 		padding-top:20px
 	}
@@ -184,12 +184,12 @@ nav ul li .popover {
 	top:180px;
 }
 
-.notransition * { 
-  -webkit-transition: none !important; 
-  -moz-transition: none !important; 
-  -o-transition: none !important; 
-  -ms-transition: none !important; 
-  transition: none !important; 
+.notransition * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
 }
 
 nav ul li#ita>a     {
@@ -203,13 +203,13 @@ nav ul li#ita>a     {
 	transition: all .1s ease-in-out;
 	}
 nav ul li#ita>a:hover {
-	-webkit-background-size: 135px 135px;	
-	background-size: 135px 135px;	
+	-webkit-background-size: 135px 135px;
+	background-size: 135px 135px;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	-ms-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;	
+	transition: all .2s ease-in-out;
 	}
 nav ul li#ita .popover {
 	margin-left: 72px;
@@ -223,20 +223,68 @@ nav ul li#blog>a     {
 	-moz-transition: all .1s ease-in-out;
 	-o-transition: all .1s ease-in-out;
 	-ms-transition: all .1s ease-in-out;
-	transition: all .1s ease-in-out;	
+	transition: all .1s ease-in-out;
 	padding-left: 50px;
 }
 nav ul li#blog>a:hover {
-	-webkit-background-size: 176px 145px;	
-	background-size: 176px 145px;	
+	-webkit-background-size: 176px 145px;
+	background-size: 176px 145px;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	-ms-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;	
+	transition: all .2s ease-in-out;
 }
 nav ul li#blog .popover {
 	margin-left: 86px;
+}
+
+nav ul li#expander>a     {
+	background-image: url(/images/expander-icon-290.png);
+	-webkit-background-size: 161px 133px;
+	background-size: 161px 133px;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+	padding-left: 50px;
+}
+nav ul li#expander>a:hover {
+	-webkit-background-size: 176px 145px;
+	background-size: 176px 145px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+nav ul li#expander .popover {
+	margin-left: 14px;
+}
+
+nav ul li#snippets>a     {
+	background-image: url(/images/snippets-icon-270.png);
+	-webkit-background-size: 120px 120px;
+	background-size: 120px 120px;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+	/*padding-left: 50px;*/
+}
+nav ul li#snippets>a:hover {
+	-webkit-background-size: 135px 135px;
+	background-size: 135px 135px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+nav ul li#snippets .popover {
+	margin-left: 0px;
 }
 
 /* iPhone Landscape + Skinny Windows */
@@ -248,30 +296,55 @@ nav ul li#blog .popover {
 	nav ul li .popover {
 		top:155px;
 	}
-		
+
 	nav ul li#ita>a     {
 		-webkit-background-size: 100px 100px;
 		background-size: 100px 100px;
 		}
 	nav ul li#ita>a:hover {
-		-webkit-background-size: 115px 115px;	
-		background-size: 115px 115px;	
+		-webkit-background-size: 115px 115px;
+		background-size: 115px 115px;
 		}
 	nav ul li#ita .popover {
 		margin-left: 58px;
 	}
-	
+
 	nav ul li#blog>a     {
 		-webkit-background-size: 132px 109px;
 		background-size: 132px 109px;
 		padding-left: 30px;
 	}
 	nav ul li#blog>a:hover {
-		-webkit-background-size: 147px 121px;	
-		background-size: 147px 121px;	
+		-webkit-background-size: 147px 121px;
+		background-size: 147px 121px;
 	}
 	nav ul li#blog .popover {
 		margin-left: 59px;
+	}
+
+	nav ul li#snippets>a     {
+		-webkit-background-size: 100px 100px;
+		background-size: 100px 100px;
+		}
+	nav ul li#snippets>a:hover {
+		-webkit-background-size: 115px 115px;
+		background-size: 115px 115px;
+		}
+	nav ul li#snippets .popover {
+		margin-left: -15px;
+	}
+
+	nav ul li#expander>a     {
+		-webkit-background-size: 132px 109px;
+		background-size: 132px 109px;
+		padding-left: 30px;
+	}
+	nav ul li#expander>a:hover {
+		-webkit-background-size: 147px 121px;
+		background-size: 147px 121px;
+	}
+	nav ul li#expander .popover {
+		margin-left: 15px;
 	}
 }
 
@@ -285,14 +358,14 @@ nav ul li#blog .popover {
 	nav ul li .popover {
 		top:90px;
 	}
-	
+
 	nav ul li#ita>a     {
 		-webkit-background-size: 60px 60px;
 		background-size: 60px 60px;
 	}
 	nav ul li#ita>a:hover {
-		-webkit-background-size: 60px 60px;	
-		background-size: 60px 60px;	
+		-webkit-background-size: 60px 60px;
+		background-size: 60px 60px;
 	}
 	nav ul li#ita .popover {
 		margin-left: 48px;
@@ -304,11 +377,36 @@ nav ul li#blog .popover {
 		padding-left: 20px;
 	}
 	nav ul li#blog>a:hover {
-		-webkit-background-size: 78px 64px;	
-		background-size: 78px 64px;	
+		-webkit-background-size: 78px 64px;
+		background-size: 78px 64px;
 	}
 	nav ul li#blog .popover {
 		margin-left: 42px;
+	}
+
+	nav ul li#snippets>a     {
+		-webkit-background-size: 60px 60px;
+		background-size: 60px 60px;
+	}
+	nav ul li#snippets>a:hover {
+		-webkit-background-size: 60px 60px;
+		background-size: 60px 60px;
+	}
+	nav ul li#snippets .popover {
+		margin-left: -7px;
+	}
+
+	nav ul li#expander>a     {
+		-webkit-background-size: 78px 64px;
+		background-size: 78px 64px;
+		padding-left: 20px;
+	}
+	nav ul li#expander>a:hover {
+		-webkit-background-size: 78px 64px;
+		background-size: 78px 64px;
+	}
+	nav ul li#expander .popover {
+		margin-left: 7px;
 	}
 }
 

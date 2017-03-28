@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 ---
-####&#9997; This talk was recently presented at [CocoaConf Chicago](http://cocoaconf.com/chicago-2014/) by Ben Lachman. Don’t hesitate to ask questions if you have them.
+#### &#9997; This talk was recently presented at [CocoaConf Chicago](http://cocoaconf.com/chicago-2014/) by Ben Lachman. Don’t hesitate to ask questions if you have them.
 
 **Slides (PDF, 39.6 MB)**: [http://nicemohawk.com/talks/prototypes/how-to-build-a-prototype-ben-lachman.pdf](/talks/prototypes/how-to-build-a-prototype-ben-lachman.pdf)
 

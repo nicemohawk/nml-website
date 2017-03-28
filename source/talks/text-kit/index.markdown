@@ -6,7 +6,7 @@ comments: false
 sharing: true
 footer: true
 ---
-####&#9997; Abstract: a primer for Text Kit and the changes to UITextView in iOS 7, including additions to UITextView's internal hierarchy and ways to use its components to customize text layout and appearance. This talk was recently presented to [Cincinnati Cocoaheads](http://cocoaheads.org/us/CincinnatiOhio/) by Ben Lachman. Don’t hesitate to ask questions if you have them.
+#### &#9997; Abstract: a primer for Text Kit and the changes to UITextView in iOS 7, including additions to UITextView's internal hierarchy and ways to use its components to customize text layout and appearance. This talk was recently presented to [Cincinnati Cocoaheads](http://cocoaheads.org/us/CincinnatiOhio/) by Ben Lachman. Don’t hesitate to ask questions if you have them.
 
 Slides (PDF, 3.8 MB): [http://nicemohawk.com/talks/text-kit/intro-to-text-kit-slides-ben-lachman.pdf](/talks/text-kit/intro-to-text-kit-slides-ben-lachman.pdf)
 

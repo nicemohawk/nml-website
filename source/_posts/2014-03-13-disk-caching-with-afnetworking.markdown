@@ -5,9 +5,9 @@ date: 2014-03-13 15:22
 comments: false
 categories: AFNetworking
 ---
-####&#9997; And we’re back, due to an overwhelming show of support from our reader.
+#### &#9997; And we’re back, due to an overwhelming show of support from our reader.
 
-###Bob
+### Bob
 
 
 Today’s quick tip: taking advantage of in-memory and on-disk caches when using AFNetworking. If you’re already using AFNetworking for your networking needs — and you probably are — you might be wondering whether you need to do anything special to use a cache for your objects. Specifically, we wanted to make sure we were getting all the advantages of both AFImageCache and NSURLCache — AFImageCache for in-memory caching, and NSURLCache as a disk cache.

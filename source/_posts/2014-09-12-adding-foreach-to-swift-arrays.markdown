@@ -6,7 +6,7 @@ comments: flase
 categories: [Swift, Code]
 ---
 
-###Ben
+### Ben
 
 I've been working on a small project in Swift recently. It's been both fun and amazingly frustrating at turns. Moving from a language which I've been using for 13+ years to one that I've only known about for 3 months is *hard*.
 

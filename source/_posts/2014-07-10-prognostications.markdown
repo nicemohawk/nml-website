@@ -5,7 +5,7 @@ date: 2014-07-10 01:38
 comments: false
 categories: Rumormongering
 ---
-###Bob
+### Bob
 
 1. Android watches show what happens when Google and Samsung don't have a product to copy. 
 
@@ -15,5 +15,5 @@ categories: Rumormongering
 
 4. The similarities will be dismissed as obvious, necessary features of wearables that Apple just happened to come up with first.
 
-####&#9997; Footnote: 5. Tim Cook won’t worry about any of the above.
+#### &#9997; Footnote: 5. Tim Cook won’t worry about any of the above.
 

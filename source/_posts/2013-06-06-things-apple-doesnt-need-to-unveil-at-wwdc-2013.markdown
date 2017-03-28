@@ -15,7 +15,7 @@ Apple is expected to release their music streaming service next week — a stran
 Allowing iOS apps to be ported directly to Mac seems like a good way to recreate the experience of the current dev tools simulator. iOS games that are ported to Mac already have issues with poor user experience due to the low quality porting done to bring them to the Mac. Making it easier for developers to port from one to the other would be nice, but a UIKit compatibility layer has all sorts of implications for low quality end products.
 
 ### Things that just aren’t going to happen no matter how much you want them to: Apple TV SDK
-A new way of interacting with the Apple TV is a necessary prerequisite to real Apple TV apps. It would be great for Apple to sell subscription-based “apps” that give users access to custom Apple TV channels from HBO, etc., but those custom channels, if they do someday exist, won’t be full apps. That would be an innovative way for Apple to get content providers to provide support for the Apple TV, but the prospect of paying 30% of subscription revenue to Apple probably can’t compete with a cable monopoly in the lizard-brains of network executives. 
+A new way of interacting with the Apple TV is a necessary prerequisite to real Apple TV apps. It would be great for Apple to sell subscription-based “apps” that give users access to custom Apple TV channels from HBO, etc., but those custom channels, if they do someday exist, won’t be full apps. That would be an innovative way for Apple to get content providers to provide support for the Apple TV, but the prospect of paying 30% of subscription revenue to Apple probably can’t compete with a cable monopoly in the lizard-brains of network executives.
 
 If you want to see the Apple TV SDK that Apple has, but hasn’t felt the need to make public, look no further than Matt Thompson’s [excellent write up on Back Row](http://nshipster.com/backrow/), the internal SDK for Apple TV.
 
@@ -23,7 +23,7 @@ If you want to see the Apple TV SDK that Apple has, but hasn’t felt the need t
 Jony Ive would never appear alongside a device primarily created out of an inferior material such as plastic.
 
 ### Things that would be incredibly useful but just aren’t Apple’s bag: A custom web backend as part of iCloud *a la* Windows Azure
-This might be controversial, but we don’t see Apple adding features like [Parse](http://parse.com), [Deployd](http://www.deployd.com) or [Windows Azure](http://www.windowsazure.com) to iCloud, as nice as they are. We hope they improve all sorts of things about iCloud, but we just don’t think adding developer-customizable server-side components is within Apple’s comfort zone. 
+This might be controversial, but we don’t see Apple adding features like [Parse](http://parse.com), [Deployd](http://www.deployd.com) or [Windows Azure](http://www.windowsazure.com) to iCloud, as nice as they are. We hope they improve all sorts of things about iCloud, but we just don’t think adding developer-customizable server-side components is within Apple’s comfort zone.
 
 ### Things that you don’t need to show to your competitors three months before launch: New UI Chrome for iOS 7
 Showing off a new UI three months before it ships doesn’t fit Apple’s normal way of showing off their products, but the reportedly extensive UI changes planned for iOS 7 might be an exception. The changes will get revealed eventually in the developer betas — Apple can’t save all the UI changes for the iOS 7 release candidate, which generally coincides with their official hardware announcement. So some of the UI overhaul will be on display at WWDC, but expect to see more changes as the release gets closer. How much gets revealed at WWDC may be a test of how much Apple cares about a) increasing pre-release excitement for iOS 7 and b) Apple’s stock price over the next few months. And no matter how nice iOS 7 looks, pleased don’t install the first beta on your phone while 2000 miles from home.
@@ -31,11 +31,11 @@ Showing off a new UI three months before it ships doesn’t fit Apple’s normal
 #### &#9997; Ben: I did that once in the days of my youth… and lost the ability to receive voicemails for the balance of WWDC + traveling back home.
 
 ### Things that we know will be released in the fall: The next normal-cost iPhone
-&nbsp; 
-  
-#  <center>&#9883;</center>
+&nbsp;
+
+# <center>&#9883;</center>
 &nbsp;   
- 
+
 ## Ready for Pickin’: What we want to see
 
 ### Things that would be appropriate for a developer conference: New Mac Pro
@@ -52,10 +52,7 @@ Apart from iCloud Core Data, this may be the biggest missing functionality in th
 
 ### Things that happen every year at WWDC: Updates to Xcode and Interface Builder that are great to demo but sometimes are hard to get working for actual complicated apps and sometimes you wonder whether Apple really uses these tools for apps like iPhoto or even Find my Friends.
 
-#####&#x2704;  
-####Ben: I'm thinking we’re going to look pretty silly on the iRadio one.
-####Bob: It will come out… but does it make sense?
-####Ben: They've had 10 years to think about it, so it had better.
-
-
-
+##### &#x2704;  
+#### Ben: I'm thinking we’re going to look pretty silly on the iRadio one.
+#### Bob: It will come out… but does it make sense?
+#### Ben: They've had 10 years to think about it, so it had better.

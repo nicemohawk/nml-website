@@ -5,7 +5,7 @@ date: 2013-03-30 00:34
 comments: false
 categories: [App Store, Apple]
 ---
-###Ben
+### Ben
 With Apple’s recent mandate that all app submissions and updates support both Retina resolution and the iPhone 5 screen size starting May 1st, there a has been some talk about culling the app store of the large number of abandoned apps.
 
 David Smith [writes](http://david-smith.org/blog/2013/03/21/purging-the-back-catalog/):
@@ -28,5 +28,5 @@ So I’d like to expand upon Manton’s suggestion with a few ideas that have be
 
 By adopting a strategy like the one above, the App Store could strongly encourage developers to move to supporting the newest technology. The policy would also weed out abandoned apps in the store, improving consumer experience, while preserving Apple’s precious “X hundred thousand apps in the store” tally.  All this could be had without actually losing the art and history of software in the App Store until the App Store itself goes away.
 
-#####&#x2704;
-####Ben: Seriously, does anyone out there think about the kids that are growing up with the App Store software distribution model? When I want to wax nostalgic, I just go find [an emulator](http://boxerapp.com) and [a game from the ‘80s or early ‘90s](http://www.mobygames.com/game/dos/warlords-ii).  What will adults do in 20 or 30 years when they want to reconnect with their childhood memories of playing Farmville or Sweatshop HD?
+##### &#x2704;
+#### Ben: Seriously, does anyone out there think about the kids that are growing up with the App Store software distribution model? When I want to wax nostalgic, I just go find [an emulator](http://boxerapp.com) and [a game from the ‘80s or early ‘90s](http://www.mobygames.com/game/dos/warlords-ii).  What will adults do in 20 or 30 years when they want to reconnect with their childhood memories of playing Farmville or Sweatshop HD?

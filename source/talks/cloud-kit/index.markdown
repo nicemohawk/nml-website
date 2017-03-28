@@ -6,7 +6,7 @@ comments: no
 sharing: true
 footer: true
 ---
-####&#9997; Abstract: A Look at what types of applications are now able to be made that previously were hard or required a large team to develop. This talk was recently presented at [360|iDev](http://360iDev.com) by Ben Lachman. Don’t hesitate to ask questions if you have them.
+#### &#9997; Abstract: A Look at what types of applications are now able to be made that previously were hard or required a large team to develop. This talk was recently presented at [360|iDev](http://360iDev.com) by Ben Lachman. Don’t hesitate to ask questions if you have them.
 
 **Slides (PDF, 14.4 MB)**: [http://nicemohawk.com/talks/cloud-kit/the-shape-of-cloudkit-ben-lachman.pdf](/talks/cloud-kit/the-shape-of-cloudkit-ben-lachman.pdf)
 

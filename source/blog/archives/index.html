@@ -3,6 +3,6 @@ layout: default
 title: Archive
 ---
 
-{% for post in site.posts reverse %}
+{% for post in site.posts reversed %}
 	{% include archive_post.html %}
 {% endfor %}

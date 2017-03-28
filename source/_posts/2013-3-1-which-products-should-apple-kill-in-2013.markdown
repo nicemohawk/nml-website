@@ -27,7 +27,7 @@ published: true
 - __Ping__ — Apple’s failed social network for music discovery and sharing seems to be that, failed.  Maybe the right thing would be to kill it softly?
 
 &nbsp;    
-######Why None of This Will Happen
+###### Why None of This Will Happen
 ### Bob
 Apple released Texas Hold'em in 2008, and updated it for the last time in September of that year. The game lasted on the App Store until [November of 2011](http://www.tuaw.com/2011/11/17/apple-pulls-texas-holdem-from-app-store/). I give the Apple Web Apps Gallery at least another year, in all its standard-resolution glory (nothing at [Apple.com/webapps](http://www.apple.com/webapps/) supports retina-resolution on the Mac). The iAd Gallery will, I expect, have a similar shelf life, unless iAds themselves go away. My speculation: the primary reason Ping died is that killing it made iTunes 11 easier to ship. Stand-alone apps and web galleries have no such dependencies, so there’s no advantage to killing them.
 

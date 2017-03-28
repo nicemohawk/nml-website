@@ -21,6 +21,9 @@ subscribe_email:
 # RSS feeds can list your email address if you like
 email:
 
+feed:
+  path: atom.xml
+
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
@@ -30,16 +33,15 @@ root: /
 permalink: /blog/:year/:month/:title/
 source: source
 destination: public_html
-plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: rdiscount
-rdiscount:
-  extensions:
-    - autolink
-    - footnotes
-    - smart
-pygments: false # default python pygments have been replaced by pygments.rb
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
 
 paginate: 6          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
@@ -98,7 +100,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-32375259-1
 
 # Facebook Like
 facebook_like: false

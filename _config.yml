@@ -45,6 +45,8 @@ gems:
   - jekyll-redirect-from
 
 whitelist:
+  - jekyll-feed
+  - jekyll-paginate
   - jekyll-redirect-from
 
 paginate: 6          # Posts per page on the blog index

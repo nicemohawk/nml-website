@@ -26,7 +26,7 @@
 	h1 a {
 		padding-left: 0px;
 		color: $color-gray01;
-		@include transition(color 0.3s);
+		@include transition(0.3s color);
 		&:hover{
 			color: $color-main;
 		}
@@ -87,7 +87,7 @@
 			margin: 0;
 		}
 	}
-	
+
 	.searchpath{
 		padding-top:12px;
 		margin-left:10px;
@@ -98,8 +98,8 @@
 		}
 	}
 
-	.sub-nav{	
-		a{	
+	.sub-nav{
+		a{
 			margin-left: 8px;
 			margin-right: 8px;
 			@include inline-block;
@@ -110,12 +110,12 @@
 			@include transition(0.3s);
 
 			&:hover{ opacity: 1; }
-			
+
 			&.nml{
 				background: image-url('/images/nml-nav-logo.png') center no-repeat;
 				background-size:30px;
 				@media screen and (max-width: 479px){
-						margin-left: 0px; 
+						margin-left: 0px;
 					}
 			}
 
@@ -141,4 +141,3 @@
 input[type="text"]{
 	-webkit-appearance: none;
 }
-

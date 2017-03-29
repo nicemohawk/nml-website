@@ -12,7 +12,7 @@ body {
 	line-height: 28px;
 	font-weight: normal;
 	color: #333;
-	
+
 	@media screen and (max-width: 479px){
 		margin: 0px;
 		font-size: 16px;
@@ -46,7 +46,11 @@ a{
 	float: right;
 }
 .clearfix{
-	@include pie-clearfix;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 .inner{
 	width: 650px; /* 688px; */

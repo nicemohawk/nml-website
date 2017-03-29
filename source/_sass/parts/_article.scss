@@ -3,19 +3,19 @@ article{
 	position: relative;
 
 	h2.title{
-		font-weight: normal; 
+		font-weight: normal;
 		font-size: 2em;
 		line-height: 1.2em;
 		margin-bottom: 0px;
 		a{
 			color: $color-gray01;
-			@include transition(color 0.3s);
+			@include transition(0.3s color);
 			&:hover{
 				color: $color-main;
 			}
 		}
 	}
-	
+
 	.entry-content{
 		line-height: 1.5;
 		text-align: left;
@@ -40,7 +40,7 @@ article{
 		}
 		p {
 			padding: 10px 0px;
-			margin-top: 10px;	
+			margin-top: 10px;
 		}
 		blockquote, ul, ol, dl, table, iframe, h1, h2, h3, h4, h5, h6, .video-container{
 			margin-top: 10px;
@@ -141,8 +141,8 @@ article:after {
     padding: 59px 0 0 0;
     position: relative;
     text-align: center;
-    width: 100%;	
-    
+    width: 100%;
+
     font-size: 40px;
     line-height: 40px;
 	content: "\269B \269B \269B";
@@ -150,13 +150,13 @@ article:after {
 
 article:last-of-type {
 	padding-bottom: 50px;
-	
+
 	@media screen and (max-width: 520px){
 		padding-bottom: 30px;
 	}
 
 	&:after {
-		content: "";		
+		content: "";
 		margin-top: 0px;
 		padding-top: 0px;
 	}

@@ -112,7 +112,7 @@
 			&:hover{ opacity: 1; }
 
 			&.nml{
-				background: image-url('/images/nml-nav-logo.png') center no-repeat;
+				background: url('/images/nml-nav-logo.png') center no-repeat;
 				background-size:30px;
 				@media screen and (max-width: 479px){
 						margin-left: 0px;
@@ -120,12 +120,12 @@
 			}
 
 			&.ita{
-				background: image-url('/images/ita-icon-60.png') center no-repeat;
+				background: url('/images/ita-icon-60.png') center no-repeat;
 				background-size:30px;
 			}
 
 			&.rss{
-				background: image-url('/images/rss-icon.png') center no-repeat;
+				background: url('/images/rss-icon.png') center no-repeat;
 				background-size:30px;
 			}
 

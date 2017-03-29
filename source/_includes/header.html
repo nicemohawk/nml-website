@@ -1,8 +1,8 @@
-<h1><a href="{{ root_url }}/blog/">{{site.title}}</a></h1>
+<h1><a href="/blog">{{site.title}}</a></h1>
 
 <nav id="navigation" class="alignright">
 	<div class="sub-nav">
-		<a class="nml" href="/" title="Nice Mohawk">Nice Mohawk</a>		
+		<a class="nml" href="/" title="Nice Mohawk">Nice Mohawk</a>
 		<a class="ita" href="/ita/" title="Ita">Ita</a>
 		{% if site.twitter_user %}
 		<a class="twitter" href="http://twitter.com/{{ site.twitter_user }}" title="Twitter">Twitter</a>
@@ -10,7 +10,7 @@
 		{% if site.subscribe_rss %}
 		<a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>
 		{% endif %}
-		
+
 		{% if site.github_user %}<a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>{% endif %}
 		{% if site.facebook_user %}<a class="facebook" href="http://www.facebook.com/{{ site.facebook_user }}" title="Facebook">Facebook</a>{% endif %}
 		{% if site.googleplus_user and site.googleplus_hidden == false %}<a class="google" href="https://plus.google.com/{{ site.googleplus_user }}?rel=author" title="Google+">Google+</a>{% endif %}
@@ -19,8 +19,8 @@
 		{% if site.linkedin_user %}<a class="linkedin" href="http://www.linkedin.com/in/{{ site.linkedin_user }}">LinkedIn</a>{% endif %}
 		{% if site.pinterest_user %}<a class="pinterest" href="https://pinterest.com/{{ site.pinterest_user }}" title="Pinterest">Pinterest</a>{% endif %}
 	</div>
-	
-<!-- 
+
+<!--
 	<div class="searchpath">
 		<script type="text/javascript" src="http://js.searchpath.io/v1/nicemohawk.com?verify=61E3CA7401"></script>
 	</div>

@@ -42,6 +42,10 @@ sass:
 gems:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 paginate: 6          # Posts per page on the blog index
 paginate_path: "/blog/page/:num"

@@ -5,6 +5,7 @@ date: 2014-08-05 10:08
 comments: false
 categories: [Ita, Press]
 published: true
+redirect_from: /ita2-released/
 ---
 ATHENS, Ohio—August 5, 2014—Nice Mohawk Limited today released the 2.0 edition of their flagship list-making application, Ita. The new release includes a complete modern redesign of the app and the addition of a new editing mode that allows for seamless in-line editing of multiple items. Ita is [immediately available on the iOS App Store](https://itunes.apple.com/us/app/ita-list-app-to-do-list-making./id528185276) for $2.99.
 

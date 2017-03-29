@@ -54,4 +54,9 @@ Story time: Because “You know about computers,” I’ve been fixing some weir
 ##### &#x2704;
 
 #### Here is a picture of a robot attempting to escape from a cup of tea:
- <center>[<img src="http://ecx.images-amazon.com/images/I/61XTWl5ZuDL._SL1002_.jpg" alt="Robot Tea Infuser" width=501 />](http://www.amazon.com/gp/product/B005SW8D7W/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005SW8D7W&linkCode=as2&tag=blaout-20)</center>
+
+<center>
+  <a href="http://www.amazon.com/gp/product/B005SW8D7W/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005SW8D7W&linkCode=as2&tag=blaout-2">
+    <img src="http://ecx.images-amazon.com/images/I/61XTWl5ZuDL._SL1002_.jpg" alt="Robot Tea Infuser" width="501px" />
+  </a>
+</center>

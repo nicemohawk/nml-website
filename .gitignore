@@ -3,15 +3,8 @@
 .sass-cache
 .gist-cache
 .pygments-cache
-_deploy
-public
-public_html
-sass.old
-source.old
-source/_stash
+_stash/
+_site/
 vendor
-node_modules
-source/stylesheets/screen.css
-source/stylesheets/octopress-stylesheet.css
 
 .preview-mode

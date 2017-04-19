@@ -1,0 +1,51 @@
+---
+---
+
+@mixin background($background) {
+  background: $background;
+}
+
+@mixin link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false) {
+  color: $normal;
+  @if $visited {
+    &:visited {
+      color: $visited;
+    }
+  }
+  @if $focus {
+    &:focus {
+      color: $focus;
+    }
+  }
+  @if $hover {
+    &:hover {
+      color: $hover;
+    }
+  }
+  @if $active {
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+@mixin inline-block($alignment: middle) {
+  // standard
+  display: inline-block;
+  @if $alignment and $alignment != none {
+    vertical-align: $alignment;
+  }
+}
+
+@mixin border-radius($radius){
+  border-radius: $radius;
+}
+
+@mixin transition($t-time: 1s, $t-prop: all) {
+  transition: $t-prop $t-time;
+}
+
+@import "base";
+@import "parts";
+@import "plugins";
+@import "custom/styles";

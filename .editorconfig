@@ -9,14 +9,6 @@ root = true
 indent_style = space
 indent_size = 2
 
-[Rakefile]
-indent_style = space
-indent_size = 2
-
 [Gemfile*]
-indent_style = space
-indent_size = 2
-
-[config.ru]
 indent_style = space
 indent_size = 2

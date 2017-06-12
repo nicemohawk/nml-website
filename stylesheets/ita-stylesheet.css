@@ -117,7 +117,8 @@ h1 {
 	text-align: center;
 	width: 100%;	
 	font-size: 40px;
-	content: "\269B \269B \269B";
+    content: "\00a0";
+	background: url('/images/atom-symbol.png') center no-repeat;
 }
 
 /* SLIDER */
@@ -404,5 +405,11 @@ h1 {
 		background-image: url(/images/ita/slides/slide-shadow-iphone@2x.png), url(/images/ita/slides/slide-4-iphone@2x.jpg);
 		background-size: 320px auto, 312px auto;
 	}
+
+		.divider:after {
+		background: url('/images/atom-symbol@2x.png') center no-repeat;
+		background-size: 212px 60px;
+	}
+
 }
 

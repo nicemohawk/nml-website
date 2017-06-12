@@ -101,7 +101,8 @@ h2 {
 	text-align: center;
 	width: 100%;
 	font-size: 40px;
-	content: "\269B \269B \269B";
+    content: "\00a0";
+	background: url('/images/atom-symbol.png') center no-repeat;
 }
 
 /* iPhone Sizes for main content */
@@ -419,4 +420,10 @@ nav ul li#snippets .popover {
 /* 		background-image:url(/images/background@2x.jpg); */
 /* 		background-size: 411px 155px; */
 	}
+
+	.divider:after {
+		background: url('/images/atom-symbol@2x.png') center no-repeat;
+		background-size: 212px 60px;
+	}
+
 }

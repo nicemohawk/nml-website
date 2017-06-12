@@ -145,7 +145,8 @@ article:after {
 
     font-size: 40px;
     line-height: 40px;
-	content: "\269B \269B \269B";
+    content: "\00a0";
+	background: url('/images/atom-symbol.png') center no-repeat;
 }
 
 article:last-of-type {
@@ -165,4 +166,15 @@ article:last-of-type {
 .share{
 	padding: 15px 0;
 	@include border-shadow();
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5),
+    all and (-o-min-device-pixel-ratio: 3/2),
+    all and (min--moz-device-pixel-ratio: 1.5),
+    all and (min-device-pixel-ratio: 1.5) {
+	article:after {
+		background: url('/images/atom-symbol@2x.png') center no-repeat;
+		background-size: 212px 60px;
+	}
+
 }

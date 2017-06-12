@@ -23,8 +23,9 @@ footer{
 		width: 100%;	
 		color:#333;
 		font-size: 40px;
-		content: "\269B \269B \269B";
-	}
+    content: "\00a0";
+	background: url('/images/atom-symbol.png') center no-repeat;
+		}
 	
 	.copyright {
 		padding-bottom: 10px;
@@ -32,4 +33,16 @@ footer{
 		line-height: 18px;
 		margin-bottom: 0px;
 	}
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5),
+    all and (-o-min-device-pixel-ratio: 3/2),
+    all and (min--moz-device-pixel-ratio: 1.5),
+    all and (min-device-pixel-ratio: 1.5) {
+
+	.divider:after {
+		background: url('/images/atom-symbol@2x.png') center no-repeat;
+		background-size: 212px 60px;
+	}
+
 }

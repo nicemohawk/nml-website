@@ -4,11 +4,6 @@
 <body>
 	<header id="header" class="inner">{% include header.html %}</header>
 	<div id="content" class="inner">{{ content | expand_urls: root_url }}</div>
-<!--
-	{% unless page.banner == false %}
-		{% include banner.html %}
-	{% endunless %}
- -->
 	<footer id="footer" class="inner">{% include footer.html %}</footer>
 	{% include after_footer.html %}
 </body>

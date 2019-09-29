@@ -1,10 +1,6 @@
-.bundle
-.DS_Store
+_site
 .sass-cache
-.gist-cache
-.pygments-cache
-_stash/
-_site/
-vendor
+.jekyll-metadata
 
-.preview-mode
+.DS_Store
+/.DS_Store

@@ -1,6 +1,12 @@
-_site
-.sass-cache
-.jekyll-metadata
-
+.bundle
 .DS_Store
-/.DS_Store
+.sass-cache
+.gist-cache
+.pygments-cache
+_stash/
+_site/
+vendor
+
+.preview-mode
+.jekyll-metadata
+.jekyll-cache

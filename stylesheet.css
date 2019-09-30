@@ -1,0 +1,204 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Basic styling
+ */
+body {
+  font: 400 18px/1.5 "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000000;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal; }
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+  margin-bottom: 15px; }
+
+/* Links */
+a {
+  color: #0098ff;
+  text-decoration: none; }
+  a:visited {
+    color: #005b99; }
+  a:hover {
+    text-decoration: underline; }
+
+/* Wrapper */
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px; }
+  @media screen and (max-width: 800px) {
+    .wrapper {
+      max-width: -webkit-calc(800px - (30px));
+      max-width: calc(800px - (30px));
+      padding-right: 15px;
+      padding-left: 15px; } }
+
+/* start custom stuff */
+.section-header-line {
+  border-bottom: 1px solid #333;
+  padding: 16px 25% 0 25%;
+  margin: 0 25% 16px 25%;
+  vertical-align: bottom;
+  overflow: hidden;
+  /* if you don't want #second to wrap below #first */ }
+
+h2 {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 54px;
+  text-align: center;
+  text-transform: lowercase;
+  font-variant: small-caps; }
+
+h3 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: lowercase;
+  font-variant: small-caps; }
+
+.intro {
+  margin: 60px 0;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-gap: 60px 1em;
+  align-items: center; }
+  .intro .box {
+    text-align: center;
+    padding: 20px; }
+  .intro .intro-text {
+    font-size: 27px;
+    line-height: 27px;
+    font-weight: 400; }
+
+.bio {
+  margin: 60px 0;
+  text-align: center;
+  font-size: 23.999994px;
+  font-weight: 300; }
+  .bio h1 {
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0; }
+  .bio p {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0; }
+
+.skills {
+  display: grid;
+  margin: 60px;
+  grid-gap: 60px;
+  align-items: center;
+  grid-template-areas: "title1 box1" "box2 title2" "title3 box3"; }
+  .skills .box1 {
+    grid-area: box1; }
+  .skills .box2 {
+    grid-area: box2; }
+  .skills .box3 {
+    grid-area: box3; }
+  .skills .title1 {
+    grid-area: title1; }
+  .skills .title2 {
+    grid-area: title2; }
+  .skills .title3 {
+    grid-area: title3; }
+  .skills .title1, .skills .title2, .skills .title3 {
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 27px;
+    text-align: center;
+    padding: 20px;
+    background-color: #0098ff;
+    color: #fff;
+    border-radius: 15px; }
+
+.experience {
+  margin: 60px 0 30px 0; }
+  .experience .experience-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .experience .experience-grid .box {
+      padding: 20px; }
+
+.past-work {
+  margin: 60px 0 30px 0; }
+  .past-work .past-work-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr; }
+    .past-work .past-work-grid .box {
+      padding: 20px; }
+    .past-work .past-work-grid .image-box {
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 36px;
+      text-align: center;
+      padding: 20px; }
+
+.footer {
+  text-align: center;
+  font-size: 13.5px;
+  padding-top: 60px;
+  padding-bottom: 15px; }
+
+@media screen and (max-width: 600px) {
+  .intro {
+    margin: 60px 0 60px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px 1em;
+    align-items: center; }
+    .intro .box {
+      text-align: center;
+      padding: 20px; }
+
+  .skills {
+    margin: 60px 0 60px 0;
+    display: grid;
+    grid-gap: 0 1em;
+    align-items: center;
+    grid-template-areas: "title1" "box1" "title2" "box2" "title3" "box3"; }
+    .skills .box1, .skills .box2 {
+      padding: 0.5em 0 2em 0; }
+    .skills .box3 {
+      padding: 0.5em 0 0.5em 0; }
+
+  .experience {
+    margin: 60px 0 60px 0; }
+    .experience .experience-grid {
+      grid-template-columns: 1fr;
+      grid-row-gap: 0px; }
+      .experience .experience-grid .box {
+        padding: 0 20px;
+        margin: 0; }
+        .experience .experience-grid .box ul {
+          padding: 0;
+          margin: 0; }
+
+  .past-work .past-work-grid {
+    grid-template-columns: 1fr; }
+    .past-work .past-work-grid .image-box {
+      padding: 1em 0 0 0; } }

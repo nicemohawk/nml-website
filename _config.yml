@@ -16,7 +16,9 @@
 title: Nice Mohawk
 email: ideas@nicemohawk.com
 description: >- # this means to ignore newlines until "baseurl:"
-  We make fine internet products.
+  A digital product studio in San Francisco and Ohio.
+  We make top-shelf apps, design new products,
+  and help companies make smart decisions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: nicemohawk.com # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -24,9 +26,16 @@ url: nicemohawk.com # the base hostname & protocol for your site, e.g. http://ex
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+
+# Github-pages will generate its own CSS unless theme exists or is explicitly null
+# Cf. https://github.com/jekyll/jekyll/issues/7478#issuecomment-454346783.
+theme: null
+
+# plugins:
+  # - jekyll-feed
+
+# Google Analytics
+google_analytics: UA-32375259-1
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

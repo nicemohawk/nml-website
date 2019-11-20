@@ -14,7 +14,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 
-	<link rel="stylesheet" media="screen" href="stylesheets/index-stylesheet.css" />
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" type="text/css" link="stylesheets/index.css">
 
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
@@ -30,61 +34,53 @@
 			s.parentNode.insertBefore(ga, s);
 		})();
 	</script>
+
 	<script type="text/javascript" src="/javascripts/libs/jquery-1.9.0.min.js"></script>
 	<script src="/javascripts/nicemohawk.js"></script>
+
 
 	<title>Nice Mohawk</title>
 
 </head>
 
 <body lang="en">
-	<header id="header">
-		<span class="small">
-			<h1><a href="/">Nice Mohawk</a></h1>
-		</span>
-		<span class="large"><img src="/images/nml-logo.png" height="300" width="406" /></span>
-
-		<!-- <nav>
-			<ul>
-				<li id="snippets">
-					<a href="https://itunes.apple.com/us/app/typesnippets-the-keyboard-that-types-for-you/id945767687?mt=8">TypeSnippets</a>
-					<div class="popover">
-						<h2>TypeSnippets</h2>
-					</div>
-				</li>
-				<li id="expander">
-					<a href="http://PhoneExpander.com">PhoneExpander</a>
-					<div class="popover">
-						<h2>PhoneExpander</h2>
-					</div>
-				</li>
-			</ul>
-			<br/>
-			<ul>
-				<li id="ita">
-					<a href="ita/">Ita</a>
-					<div class="popover">
-						<h2>Ita</h2>
-					</div>
-				</li>
-				<li id="blog">
-					<a href="blog/">Blog</a>
-					<div class="popover">
-						<h2>Blog</h2>
-					</div>
-				</li>
-			</ul>
-		</nav> -->
-	</header>
 	<div class="container">
-		<div class="company">
-			<p>Hi, we're Nice Mohawk. Thanks for stopping by.</p>
-			<p>Ben Lachman and Robert Cantoni started Nice Mohawk in 2012. We create top-shelf apps from the ground up and help people and companies with making good choices related to technology. In 2013, we started a <a href="/blog">blog</a> to talk about things we like (it's sorely out-of-date, but we have all sorts of good intentions of reviving it).</p>
-			<p>Sometimes companies hire us to make apps for them or to help them make their products better. If you'd like to talk about working with us, send an email to <a href="mailto:ideas@nicemohawk.com">ideas@nicemohawk.com</a>. Or see what we're up to on Twitter as <a href="http://www.twitter.com/nicemohawk">@nicemohawk</a>.</p>
+		<nav class="navbar navbar-expand-sm navbar-light bg-white">
+		  <a class="navbar-brand " href="#">
+				<img src="./images/nml-brand-icon.png">
+			</a>
+			<div class="navbar-nav ml-auto">
+				<a class="nav-item nav-link active nml-header-link" href="/" style="border-bottom: 1.5px solid #e03a3e; padding-left: 0; padding-right: 0;">Home</a>
+				<a class="nav-item nav-link" href="/about">About</a>
+			</div>
+		</nav>
+		<div class="row d-flex" style="height: calc(100vh - 110px);">
+			<div class="col-12 col-md-10 offset-md-1 align-self-center">
+				<div class="row">
+					<img style="position: fixed; bottom: 0; left: 0; width: 48%;" src="./images/mohawk.svg" class="d-none d-md-block">
+					<div class="col-12 col-sm-6 text-right align-self-center">
+						<span style="font-size: 4em; line-height: 1em; font-weight: 900;">
+						Hi, we're <br> Nice <span style="position: relative; z-index: -1;">M</span>ohawk. Thanks f<span style="position: relative; z-index: -1;">or</span> stopping by.
+						</span>
+					</div>
+					<div class="col-12 col-sm-6 align-self-center">
+						<span style="font-size: 35px; line-height: 54px;">
+						We're a digital product studio in San Francisco and Athens. We make top shelf apps, design new products and help companies make smart decisions.
+						</span>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="divider"></div>
+		<div class="d-flex justify-content-between align-items-center footer">
+			<div class="text-muted" style="position: relative; z-index: 5;">
+			Copyright c 2019 Nice Mohawk Limited.
+			</div>
+			<div class="btn btn-light" style="border-radius: 48px">
+				👋Say Hi! - <a href="mailto:ideas@nicemohawk.com" style="color: #E03A3E;">ideas@nicemohawk.com</a>
+			</div>
+		</div>
+
 	</div><!-- /container -->
-	<div id="copyright">Copyright &copy; 2019 Nice Mohawk Limited.</div>
 </body>
 
 </html>

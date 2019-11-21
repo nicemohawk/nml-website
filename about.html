@@ -46,7 +46,7 @@
 		  <a class="navbar-brand " href="#">
 				<img src="./images/nml-brand-icon.png"> Nice Mohawk
 			</a>
-			<div class="navbar-nav ml-auto" style="margin-top: 75px;">
+			<div class="navbar-nav ml-auto">
 				<a class="nav-item nav-link" href="/">Home</a>
 				<a class="nav-item nav-link nml-header-link active" href="/about" style="border-bottom: 1.5px solid #e03a3e; padding-left: 0; padding-right: 0;">About</a>
 			</div>
@@ -116,8 +116,8 @@
       <div class="col-12 d-flex justify-content-center align-items-center text-center">
         <div class="pt-3">
           <h4 class="text-white text-center" style="font-size: 30px; line-height: 30px;">Want to Chat About a Project?</h4>
-          <div class="btn btn-light" style="border-radius: 48px">
-            👋Say Hi! - <a href="mailto:ideas@nicemohawk.com" style="color: #E03A3E;">ideas@nicemohawk.com</a>
+          <div class="btn btn-light contact-button">
+            👋Say Hi! - <a href="mailto:ideas@nicemohawk.com" class="footer-link">ideas@nicemohawk.com</a>
           </div>
           <div class="text-muted pt-5">
           Copyright c 2019 Nice Mohawk Limited.
@@ -129,3 +129,21 @@
 </body>
 
 </html>
+<script>
+let b = ['#5ebd3e', '#ffb900', '#f78200', 'e23838', '#973999', '009cdf']
+let m = ['./images/mohawk5ebd3e.png', './images/mohawkffb900.png','./images/mohawkf78200.png', './images/mohawke23838.png', './images/mohawk973999.png', './images/mohawk009cdf.png']
+
+let i = Math.floor((Math.random()*b.length))
+
+// brand color
+let f = document.querySelector(".footer-link")
+f.style.color = b[i]
+
+// mohawk color
+let h = document.getElementById("nmlBrand")
+h.src = m[i]
+
+// link underline color
+let a = document.querySelector(".active")
+a.style.borderBottom = `1px solid ${b[i]}`
+</script>

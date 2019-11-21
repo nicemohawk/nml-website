@@ -17,8 +17,11 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+	<!-- nml css -->
+	<link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
 
-	<link rel="stylesheet" type="text/css" link="stylesheets/index.css">
+	<!-- fonts -->
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7985818/7908012/css/fonts.css" />
 
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
@@ -33,6 +36,9 @@
 			var s = document.getElementsByTagName('script')[0];
 			s.parentNode.insertBefore(ga, s);
 		})();
+
+
+
 	</script>
 
 	<script type="text/javascript" src="/javascripts/libs/jquery-1.9.0.min.js"></script>
@@ -47,36 +53,33 @@
 	<div class="container">
 		<nav class="navbar navbar-expand-sm navbar-light bg-white">
 		  <a class="navbar-brand " href="#">
-				<img src="./images/nml-brand-icon.png">
+				<img id="nmlBrand" src="./images/nml-brand-icon.png">
 			</a>
 			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link active nml-header-link" href="/" style="border-bottom: 1.5px solid #e03a3e; padding-left: 0; padding-right: 0;">Home</a>
+				<a class="nav-item nav-link active nav-link-underline" href="/">Home</a>
 				<a class="nav-item nav-link" href="/about">About</a>
 			</div>
 		</nav>
-		<div class="row d-flex" style="height: calc(100vh - 110px);">
-			<div class="col-12 col-md-10 offset-md-1 align-self-center">
+		<div class="row d-flex main">
+			<div class="col-12 px-5 align-self-center">
 				<div class="row">
-					<img style="position: fixed; bottom: 0; left: 0; width: 48%;" src="./images/mohawk.svg" class="d-none d-md-block">
+					<img src="./images/mohawk.svg" class="d-none d-md-block mohawk">
 					<div class="col-12 col-sm-6 text-right align-self-center">
-						<span style="font-size: 4em; line-height: 1em; font-weight: 900;">
-						Hi, we're <br> Nice <span style="position: relative; z-index: -1;">M</span>ohawk. Thanks f<span style="position: relative; z-index: -1;">or</span> stopping by.
+						<span class="welcome-header">
+							Hi, we're<br>Nice <span class="text-underlay">M</span>ohawk. Thanks f<span class="text-underlay">or</span> stopping by.
 						</span>
 					</div>
 					<div class="col-12 col-sm-6 align-self-center">
-						<span style="font-size: 35px; line-height: 54px;">
+						<span class="welcome-copy">
 						We're a digital product studio in San Francisco and Athens. We make top shelf apps, design new products and help companies make smart decisions.
 						</span>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="d-flex justify-content-between align-items-center footer">
-			<div class="text-muted" style="position: relative; z-index: 5;">
-			Copyright c 2019 Nice Mohawk Limited.
-			</div>
-			<div class="btn btn-light" style="border-radius: 48px">
-				👋Say Hi! - <a href="mailto:ideas@nicemohawk.com" style="color: #E03A3E;">ideas@nicemohawk.com</a>
+		<div class="d-flex justify-content-end align-items-center footer">
+			<div class="btn btn-light contact-btn">
+				👋Say Hi! - <a class="footer-link" href="mailto:ideas@nicemohawk.com">ideas@nicemohawk.com</a>
 			</div>
 		</div>
 
@@ -84,3 +87,21 @@
 </body>
 
 </html>
+<script>
+let b = ['#5ebd3e', '#ffb900', '#f78200', 'e23838', '#973999', '009cdf']
+let m = ['./images/mohawk5ebd3e.png', './images/mohawkffb900.png','./images/mohawkf78200.png', './images/mohawke23838.png', './images/mohawk973999.png', './images/mohawk009cdf.png']
+
+let i = Math.floor((Math.random()*b.length))
+
+// brand color
+let f = document.querySelector(".footer-link")
+f.style.color = b[i]
+
+// mohawk color
+let h = document.getElementById("nmlBrand")
+h.src = m[i]
+
+// link underline color
+let a = document.querySelector(".active")
+a.style.borderBottom = `1px solid ${b[i]}`
+</script>

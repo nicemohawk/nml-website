@@ -97,9 +97,16 @@ body {
   /* color: #black; */
 }
 
+.contact {
+  position: relative;
+  bottom: 50px;
+  align-items: right;
+}
 .contact-btn {
   border-radius: 48px;
 }
+
+
 
 @media (max-width: 767px) {
   .main{

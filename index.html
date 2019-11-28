@@ -55,21 +55,21 @@
 		  <a class="navbar-brand " href="#">
 				<img id="nmlBrand" src="./images/nml-brand-icon.png">
 			</a>
-			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link active nav-link-underline" href="/">Home</a>
+			<div class="navbar-nav ml-auto d-flex flex-row">
+				<a class="nav-item nav-link active nav-link-underline mr-3" href="/">Home</a>
 				<a class="nav-item nav-link" href="/about">About</a>
 			</div>
 		</nav>
-		<div class="row d-flex main">
-			<div class="col-12 px-5 align-self-center">
+		<div class="row d-flex main pt-5 pt-5-sm pt-0 align-items-center">
+			<div class="col-12 px-5 align-self-center-sm">
 				<div class="row">
-					<img src="./images/mohawk.svg" class="d-none d-md-block mohawk">
-					<div class="col-12 col-sm-6 text-right align-self-center">
+					<img src="./images/mohawk.svg" class="mohawk">
+					<div class="col-12 col-sm-6 text-right align-items-center pb-5 pb-sm-0">
 						<span class="welcome-header">
 							Hi, we're<br>Nice <span class="text-underlay">M</span>ohawk. Thanks f<span class="text-underlay">or</span> stopping by.
 						</span>
 					</div>
-					<div class="col-12 col-sm-6 align-self-center">
+					<div class="col-12 col-sm-6 align-items-center pb-5 pb-sm-0">
 						<span class="welcome-copy">
 						We're a digital product studio in San Francisco and Athens. We make top shelf apps, design new products and help companies make smart decisions.
 						</span>
@@ -77,18 +77,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="d-flex justify-content-end align-items-center footer">
+		<div class="d-flex align-items-center footer">
 			<div class="btn btn-light contact-btn">
 				👋Say Hi! - <a class="footer-link" href="mailto:ideas@nicemohawk.com">ideas@nicemohawk.com</a>
 			</div>
 		</div>
-
 	</div><!-- /container -->
 </body>
 
 </html>
 <script>
-let b = ['#5ebd3e', '#ffb900', '#f78200', 'e23838', '#973999', '009cdf']
+// script to set the header link underline, brand image, and footer link randomly on each page laod
+
+let b = ['#5ebd3e', '#ffb900', '#f78200', '#e23838', '#973999', '#009cdf']
 let m = ['./images/mohawk5ebd3e.png', './images/mohawkffb900.png','./images/mohawkf78200.png', './images/mohawke23838.png', './images/mohawk973999.png', './images/mohawk009cdf.png']
 
 let i = Math.floor((Math.random()*b.length))

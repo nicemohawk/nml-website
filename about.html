@@ -19,6 +19,9 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+	<!-- nml css -->
+	<link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
+
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-32375259-1']);
@@ -43,28 +46,93 @@
 <body lang="en">
 	<div class="container">
 		<nav class="navbar navbar-expand-sm navbar-light bg-white">
-		  <a class="navbar-brand " href="#">
-				<img src="./images/nml-brand-icon.png"> Nice Mohawk
+		  <a class="navbar-brand d-flex align-items-center" href="#">
+				<img id="nmlBrand" src="./images/nml-brand-icon.png" class="mohawk-brand pr-3"><span class="mohawk-brand-label">Nice Mohawk</span>
 			</a>
-			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link" href="/">Home</a>
-				<a class="nav-item nav-link nml-header-link active" href="/about" style="border-bottom: 1.5px solid #e03a3e; padding-left: 0; padding-right: 0;">About</a>
+			<div class="navbar-nav ml-auto d-flex flex-row">
+				<a class="nav-item nav-link mr-3" href="/">Home</a>
+				<a class="nav-item nav-link nml-header-link active" href="/about">About</a>
 			</div>
 		</nav>
-		<div class="row d-flex justify-content-center">
-			<div class="col-12 col-lg-9">
-				<div class="row d-flex justify-content-center">
-					<div class="col-12 text-right align-self-center">
-            <div class="jumbotron bg-white text-center mt-5">
-              <h1 style="font-family: Gotham Rounded; font-size: 80px; line-heigt: 84px;">About Us</h1>
-            </div>
+		<div class="row">
+			<div class="col-12 text-center align-self-center mt-2 pb-5 pb-3-sm">
+				<h1 class="about-title">About Us</h1>
+			</div>
+		</div>
+		<div class="row d-flex justify-content-around">
+			<div class="col-12 col-md-6 col-xl-4">
+				<div class="media pb-2">
+					<img src="./images/bob-profile-img.png" class="border-rounded align-self-end">
+					<div class="media-body align-self-end pl-2 d-flex flex-column justify-content-end">
+						<h5 class="media-title">Robert Cantoni</h5>
+						<span class="media-label">Co-Founder</span>
 					</div>
-					<div class="col-12 col-sm-4">
-            <div class="media pl-3">
-              <img src="./images/bob-profile-img.png" class="">
-              <div class="media-body align-self-end pl-2">
-                <h5 style="font-size: 30px; margin-bottom: 0;">Robert Cantoni</h5>
-                <span style="font-size: 24px;">Co-Founder</span>
+				</div>
+				<div class="pt-4">
+					<span style="font-size: 18px; line-height: 26px;">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</p>
+					<p class="mt-3">
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+					</p>
+					</span>
+					<div class="text-center pt-3">
+						<a class="btn btn-light" href="https://twitter.com/nicemohawk" style="border-radius: 48px;" target="_blank">
+							<img src="./images/twitter-logo.png" height="25px">
+							Twitter
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-xl-4">
+				<div class="media pb-2">
+					<img src="./images/ben-profile-img.png" class="border-rounded  align-self-end">
+					<div class="media-body align-self-end pl-2 d-flex flex-column justify-content-end">
+						<h5 class="media-title">Ben Lachman</h5>
+						<span class="media-label">Co-Founder</span>
+					</div>
+				</div>
+				<div class="pt-4">
+					<span style="font-size: 18px; line-height: 26px;">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<p clas="mt-3">
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</span>
+					<div class="text-center pt-3">
+						<a class="btn btn-light" style="border-radius: 48px;" href="https://twitter.com/nicemohawk" style="border-radius" target="_blank">
+							<img src="./images/twitter-logo.png" height="25px">
+							Twitter
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<!-- <div class="row d-flex justify-content-center align-items-center about">
+			<div class="col-12">
+				<div class="row d-flex justify-content-center">
+					<div class="col-12 text-center align-self-center mt-2 pb-5 pb-3-sm">
+            <h1 class="about-title">About Us</h1>
+					</div>
+				</div>
+					<div class="col-12 col-sm-6 col-xl-4 px-3 pb-5">
+            <div class="media pb-2">
+              <img src="./images/bob-profile-img.png" class="border-rounded align-self-end">
+              <div class="media-body align-self-end pl-2 d-flex flex-column justify-content-end">
+                <h5 class="media-title">Robert Cantoni</h5>
+                <span class="media-label">Co-Founder</span>
               </div>
             </div>
             <div class="pt-4">
@@ -72,7 +140,7 @@
   						<p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
-              <p>
+              <p class="mt-3">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
               </p>
   						</span>
@@ -84,20 +152,20 @@
               </div>
             </div>
 					</div>
-          <div class="col-12 col-sm-4 offset-2">
-            <div class="media pl-3">
-              <img src="./images/ben-profile-img.png" class="border-rounded">
-              <div class="media-body align-self-end pl-2">
-                <h5 style="font-size: 30px; margin-bottom: 0;">Ben Lachman</h5>
-                <span style="font-size: 24px;">Co-Founder</span>
+          <div class="col-12 col-sm-6 col-xl-4   px-3 pb-2 pb-5-sm">
+            <div class="media pb-2">
+              <img src="./images/ben-profile-img.png" class="border-rounded  align-self-end">
+              <div class="media-body align-self-end pl-2 d-flex flex-column justify-content-end">
+                <h5 class="media-title">Ben Lachman</h5>
+                <span class="media-label">Co-Founder</span>
               </div>
             </div>
-            <div class="pt-3">
+            <div class="pt-4">
               <span style="font-size: 18px; line-height: 26px;">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <p>
+                <p clas="mt-3">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
               </span>
@@ -110,27 +178,27 @@
             </div>
           </div>
 				</div>
-			</div>
-		</div>
-    <div class="row" style="height: 300px; background-color: #17242D; margin-top: 125px;">
-      <div class="col-12 d-flex justify-content-center align-items-center text-center">
-        <div class="pt-3">
-          <h4 class="text-white text-center" style="font-size: 30px; line-height: 30px;">Want to Chat About a Project?</h4>
-          <div class="btn btn-light contact-button">
-            👋Say Hi! - <a href="mailto:ideas@nicemohawk.com" class="footer-link">ideas@nicemohawk.com</a>
-          </div>
-          <div class="text-muted pt-5">
-          Copyright c 2019 Nice Mohawk Limited.
-          </div>
+			</div> -->
+		<!-- </div> -->
+	</div><!-- /container -->
+  <div class="contact-footer">
+    <div class="d-flex justify-content-center align-items-center text-center">
+      <div class="pt-3">
+        <h4 class="text-white text-center pb-3 d-none d-sm-block">Want to Chat About a Project?</h4>
+        <div class="contact-btn btn btn-light">
+          👋Say Hi! - <a href="mailto:ideas@nicemohawk.com" class="footer-link">ideas@nicemohawk.com</a>
+        </div>
+        <div class="text-muted pt-5 d-none d-sm-block">
+        Copyright © 2019 Nice Mohawk Limited.
         </div>
       </div>
     </div>
-	</div><!-- /container -->
+  </div>
 </body>
 
 </html>
 <script>
-let b = ['#5ebd3e', '#ffb900', '#f78200', 'e23838', '#973999', '009cdf']
+let b = ['#5ebd3e', '#ffb900', '#f78200', '#e23838', '#973999', '#009cdf']
 let m = ['./images/mohawk5ebd3e.png', './images/mohawkffb900.png','./images/mohawkf78200.png', './images/mohawke23838.png', './images/mohawk973999.png', './images/mohawk009cdf.png']
 
 let i = Math.floor((Math.random()*b.length))

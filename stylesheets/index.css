@@ -216,3 +216,9 @@ body {
     margin-bottom: 105px;
   }
 }
+
+@media screen and (max-width: 322px) {
+  .d-none-xs {
+    display: none;
+  }
+}

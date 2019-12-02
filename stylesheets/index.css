@@ -2,11 +2,18 @@
 body {
   font-size: 100%;
   font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+  font-style: normal;
+  font-weight: 400;
+
+  /* font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+  font-style: normal;
+  font-weight: 700; */
 }
 
 .navbar {
   margin-top: 1em;
 }
+
 .navbar-brand {
   font-size: 18px;
   font-weight: 900;
@@ -36,12 +43,22 @@ body {
   bottom: 0;
   left: 0;
   width: 48%;
+  max-height: 70%;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .welcome-header {
   font-size: 4em;
-  line-height: 1em;
+  line-height: 1.27em;
   font-weight: 900;
+}
+
+.mohawk-line {
+  white-space: nowrap;
 }
 
 .text-underlay {
@@ -55,7 +72,7 @@ body {
 }
 
 .about-title {
-  font-family: Gotham Rounded;
+  /* font-family: Gotham Rounded; */
   font-size: 80px;
   line-height: 84px;
 }
@@ -97,11 +114,17 @@ body {
   /* color: #black; */
 }
 
-.contact {
+.contact-sm {
+  display: none;
+}
+
+.contact-lg {
+  display: flex;
   position: relative;
   bottom: 50px;
   align-items: right;
 }
+
 .contact-btn {
   border-radius: 48px;
 }
@@ -109,13 +132,14 @@ body {
 
 
 @media (max-width: 767px) {
-  .main{
-    height: auto;
+  .main {
+    height: calc(100vh - 150px);
   }
 
   .mohawk {
     display: none;
   }
+
   .mohawk-brand-label {
     display: none;
   }
@@ -136,6 +160,14 @@ body {
     text-align: right;
   }
 
+  .contact-lg {
+    display: none;
+  }
+
+  .contact-sm {
+    display: flex;
+  }
+
   .contact-footer {
     background-color: inherit;
     height: 80px;
@@ -150,6 +182,23 @@ body {
 }
 
 
-media (min-height: ){
+@media screen and (min-width: 767px)  and (max-width: 992px) {
+  .welcome-header {
+    font-size: 3em;
+    line-height: 1.25em
+  }
+  .welcome-copy{
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .welcome-header {
+    line-height: 1.5em;
+  }
+  /* .welcome-copy{
+    font-size: 28px;
+    line-height: 32px;
+  } */
 }

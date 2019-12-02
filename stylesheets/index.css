@@ -42,8 +42,8 @@ body {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 48%;
-  max-height: 70%;
+  width: 47%;
+  max-height: 80%;
   -khtml-user-select: none;
   -o-user-select: none;
   -moz-user-select: none;
@@ -184,7 +184,7 @@ body {
 
 @media screen and (min-width: 767px)  and (max-width: 992px) {
   .welcome-header {
-    font-size: 3em;
+    font-size: 2.8em;
     line-height: 1.25em
   }
   .welcome-copy{
@@ -196,9 +196,23 @@ body {
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .welcome-header {
     line-height: 1.5em;
+    font-size: 3.8em;
   }
-  /* .welcome-copy{
-    font-size: 28px;
-    line-height: 32px;
-  } */
+  .welcome-copy{
+    font-size: 30px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-height: 525px) {
+  .mohawk {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 760px) {
+  /* shift main content up to keep overlap effect  */
+  .content {
+    margin-bottom: 105px;
+  }
 }

@@ -1,0 +1,242 @@
+/* nml */
+body {
+  font-size: 100%;
+  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+  font-style: normal;
+  font-weight: 400;
+
+  /* font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B";
+  font-style: normal;
+  font-weight: 700; */
+}
+
+
+.navbar {
+  margin-top: 1em;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.mohawk-brand {
+  padding-bottom: 8px;
+}
+
+.active {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.main {
+  height: calc(100vh - 110px);
+}
+
+.main.row:before, .main.row:after {
+  display: none;
+}
+
+.about {
+  min-height: 724px;
+}
+
+.mohawk {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 47%;
+  max-height: 80%;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.welcome-header {
+  font-size: 4em;
+  line-height: 1.27em;
+  font-weight: 900;
+}
+
+.mohawk-line {
+  white-space: nowrap;
+}
+
+.text-underlay {
+  position: relative;
+  z-index: -1;
+}
+
+.welcome-copy {
+  font-size: 35px;
+  line-height: 54px;
+}
+
+.about-title {
+  /* font-family: Gotham Rounded; */
+  font-size: 80px;
+  line-height: 84px;
+}
+
+.media-title {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.media-label {
+   font-size: 24px;
+   line-height: 24px;
+}
+
+.contact-footer {
+  /* VW does not include scroll bars so we make it a little wider to compensate */
+  height: 300px;
+  background-color: #17242D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-footer h4{
+   font-size: 30px;
+   line-height: 30px;
+}
+
+.footer {
+  justify-content: flex-end;
+}
+
+.footer-overlay {
+  position: relative;
+  z-index: 5;
+}
+
+.footer-link {
+  /* color: #black; */
+}
+
+.contact-sm {
+  display: none;
+}
+
+.contact-lg {
+  display: flex;
+  position: relative;
+  bottom: 50px;
+  align-items: right;
+}
+
+.contact-btn {
+  border-radius: 48px;
+}
+
+
+
+@media (max-width: 767px) {
+  .main {
+    height: calc(100vh - 150px);
+  }
+
+  .mohawk {
+    display: none;
+  }
+
+  .mohawk-brand-label {
+    display: none;
+  }
+
+  .welcome-header {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .welcome-copy {
+    font-size: 21px;
+    line-height: 34px;
+  }
+
+  .about-title {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+  }
+
+  .contact-lg {
+    display: none;
+  }
+
+  .contact-sm {
+    display: flex;
+  }
+
+  .contact-footer {
+    background-color: inherit;
+    height: 80px;
+    align-items: center;
+    display: flex;
+  }
+
+  .footer {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (min-width: 767px)  and (max-width: 992px) {
+  .welcome-header {
+    font-size: 2.8em;
+    line-height: 1.25em
+  }
+  .welcome-copy{
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .welcome-header {
+    line-height: 1.5em;
+    font-size: 3.8em;
+  }
+  .welcome-copy{
+    font-size: 30px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-height: 525px) {
+  .main {
+    height: auto;
+  }
+  .mohawk {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 760px) and (min-width: 600px) {
+  /* shift main content up to keep overlap effect  */
+  .content {
+    margin-bottom: 105px;
+  }
+}
+
+@media screen and (max-width: 322px) {
+  .d-none-xs {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 400px) and (min-width: 760px) {
+  .welcome-header {
+    font-size: 2.5em;
+  }
+  .welcome-copy{
+    font-size: 1.1em;
+    line-height: 40px;
+  }
+}

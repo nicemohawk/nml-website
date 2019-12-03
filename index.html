@@ -14,7 +14,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 
-	<link rel="stylesheet" media="screen" href="stylesheets/index-stylesheet.css" />
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- nml css -->
+	<link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
+
+	<!-- fonts -->
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7985818/7908012/css/fonts.css" />
 
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
@@ -29,62 +36,79 @@
 			var s = document.getElementsByTagName('script')[0];
 			s.parentNode.insertBefore(ga, s);
 		})();
+
+
+
 	</script>
+
 	<script type="text/javascript" src="/javascripts/libs/jquery-1.9.0.min.js"></script>
 	<script src="/javascripts/nicemohawk.js"></script>
+
 
 	<title>Nice Mohawk</title>
 
 </head>
 
 <body lang="en">
-	<header id="header">
-		<span class="small">
-			<h1><a href="/">Nice Mohawk</a></h1>
-		</span>
-		<span class="large"><img src="/images/nml-logo.png" height="300" width="406" /></span>
-
-		<!-- <nav>
-			<ul>
-				<li id="snippets">
-					<a href="https://itunes.apple.com/us/app/typesnippets-the-keyboard-that-types-for-you/id945767687?mt=8">TypeSnippets</a>
-					<div class="popover">
-						<h2>TypeSnippets</h2>
-					</div>
-				</li>
-				<li id="expander">
-					<a href="http://PhoneExpander.com">PhoneExpander</a>
-					<div class="popover">
-						<h2>PhoneExpander</h2>
-					</div>
-				</li>
-			</ul>
-			<br/>
-			<ul>
-				<li id="ita">
-					<a href="ita/">Ita</a>
-					<div class="popover">
-						<h2>Ita</h2>
-					</div>
-				</li>
-				<li id="blog">
-					<a href="blog/">Blog</a>
-					<div class="popover">
-						<h2>Blog</h2>
-					</div>
-				</li>
-			</ul>
-		</nav> -->
-	</header>
 	<div class="container">
-		<div class="company">
-			<p>Hi, we're Nice Mohawk. Thanks for stopping by.</p>
-			<p>Ben Lachman and Robert Cantoni started Nice Mohawk in 2012. We create top-shelf apps from the ground up and help people and companies with making good choices related to technology. In 2013, we started a <a href="/blog">blog</a> to talk about things we like (it's sorely out-of-date, but we have all sorts of good intentions of reviving it).</p>
-			<p>Sometimes companies hire us to make apps for them or to help them make their products better. If you'd like to talk about working with us, send an email to <a href="mailto:ideas@nicemohawk.com">ideas@nicemohawk.com</a>. Or see what we're up to on Twitter as <a href="http://www.twitter.com/nicemohawk">@nicemohawk</a>.</p>
+		<nav class="navbar navbar-expand-sm navbar-light bg-white">
+		  <a class="navbar-brand " href="#">
+				<img id="nmlBrand" src="./images/nml-brand-icon.png">
+			</a>
+			<div class="navbar-nav ml-auto d-flex flex-row">
+				<a class="nav-item nav-link active nav-link-underline mr-3" href="/">Home</a>
+				<a class="nav-item nav-link" href="/about">About</a>
+			</div>
+		</nav>
+		<div class="row main d-flex align-items-center">
+			<div class="col-12 px-3 content">
+				<div class="row">
+					<img src="./images/mohawk.svg" class="mohawk">
+					<div class="col-12 col-md-6 text-right align-items-center pb-5 pb-md-0">
+						<span class="welcome-header">
+								Hi, we're <br>
+								<span class="mohawk-line">Nice <span class="text-underlay">M</span>ohawk.</span></br>
+								Thanks f<span class="text-underlay">or</span><br> stopping by.
+						</span>
+					</div>
+					<div class="col-12 col-md-6 align-items-center pb-5 pb-md-0">
+						<span class="welcome-copy">
+						We're a digital product studio in San Francisco and Athens. We make top shelf apps, design new products and help companies make smart decisions.
+						</span>
+					</div>
+					<div class="col-12 contact-sm align-items-center footer">
+						<div class="btn btn-light contact-btn">
+							<span class="d-none-xs">👋</span> Say Hi! — <a class="footer-link" href="mailto:ideas@nicemohawk.com">ideas@nicemohawk.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="divider"></div>
+		<div class="contact-lg align-items-center footer">
+			<div class="btn btn-light contact-btn">
+				👋 Say Hi! — <a class="footer-link" href="mailto:ideas@nicemohawk.com">ideas@nicemohawk.com</a>
+			</div>
+		</div>
 	</div><!-- /container -->
-	<div id="copyright">Copyright &copy; 2019 Nice Mohawk Limited.</div>
 </body>
-
 </html>
+<script>
+// script to set the header link underline, brand image, and footer link randomly on each page laod
+
+let b = ['#5ebd3e', '#ffb900', '#f78200', '#e23838', '#973999', '#009cdf']
+let m = ['./images/mohawk5ebd3e.png', './images/mohawkffb900.png','./images/mohawkf78200.png', './images/mohawke23838.png', './images/mohawk973999.png', './images/mohawk009cdf.png']
+
+let i = Math.floor((Math.random()*b.length))
+
+// brand color
+let f = document.querySelectorAll(".footer-link")
+f.forEach(e => {e.style.color = b[i]})
+
+// mohawk color
+let h = document.getElementById("nmlBrand")
+h.src = m[i]
+
+// link underline color
+let a = document.querySelector(".active")
+a.style.borderBottom = `1px solid ${b[i]}`
+</script>

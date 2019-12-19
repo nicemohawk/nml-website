@@ -121,3 +121,5 @@ google_analytics_tracking_id: UA-32375259-1
 
 # Facebook Like
 facebook_like: false
+
+theme: jekyll-theme-tactile

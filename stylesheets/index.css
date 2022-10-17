@@ -4,7 +4,9 @@ body {
   /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif; */
-  font-family: "Gotham Rounded SSm A", "Gotham Rounded SSm B", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: ui-rounded, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: 400;
 
@@ -12,7 +14,6 @@ body {
   font-style: normal;
   font-weight: 700; */
 }
-
 
 .navbar {
   margin-top: 1em;
@@ -33,12 +34,12 @@ body {
   padding-right: 0;
 }
 
-
 .main {
   height: calc(100vh - 110px);
 }
 
-.main.row:before, .main.row:after {
+.main.row:before,
+.main.row:after {
   display: none;
 }
 
@@ -91,22 +92,22 @@ body {
 }
 
 .media-label {
-   font-size: 24px;
-   line-height: 24px;
+  font-size: 24px;
+  line-height: 24px;
 }
 
 .contact-footer {
   /* VW does not include scroll bars so we make it a little wider to compensate */
   height: 300px;
-  background-color: #17242D;
+  background-color: #17242d;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.contact-footer h4{
-   font-size: 30px;
-   line-height: 30px;
+.contact-footer h4 {
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .footer {
@@ -136,8 +137,6 @@ body {
 .contact-btn {
   border-radius: 48px;
 }
-
-
 
 @media (max-width: 767px) {
   .main {
@@ -189,13 +188,12 @@ body {
   }
 }
 
-
-@media screen and (min-width: 767px)  and (max-width: 992px) {
+@media screen and (min-width: 767px) and (max-width: 992px) {
   .welcome-header {
     font-size: 2.8em;
-    line-height: 1.25em
+    line-height: 1.25em;
   }
-  .welcome-copy{
+  .welcome-copy {
     font-size: 24px;
     line-height: 32px;
   }
@@ -206,7 +204,7 @@ body {
     line-height: 1.5em;
     font-size: 3.8em;
   }
-  .welcome-copy{
+  .welcome-copy {
     font-size: 30px;
     line-height: 60px;
   }
@@ -238,7 +236,7 @@ body {
   .welcome-header {
     font-size: 2.5em;
   }
-  .welcome-copy{
+  .welcome-copy {
     font-size: 1.1em;
     line-height: 40px;
   }

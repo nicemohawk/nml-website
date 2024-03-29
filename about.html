@@ -1,151 +1,225 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 9]><html class="ie"><![endif]-->
 <!--[if gte IE 9]><!-->
 <html>
-<!--<![endif]-->
-<html>
+  <!--<![endif]-->
+  <html>
+    <head>
+      <!-- META -->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-<head>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1"
+      />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
 
-	<!-- META -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-	<meta name="apple-mobile-web-app-capable" content="yes" />
+      <!-- web font -->
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Varela+Round"
+      />
 
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+      <!-- Bootstrap CSS -->
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+      />
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- nml css -->
+      <link rel="stylesheet" type="text/css" href="./stylesheets/index.css" />
 
-	<!-- nml css -->
-	<link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(["_setAccount", "UA-32375259-1"]);
+        _gaq.push(["_trackPageview"]);
 
-	<!-- fonts -->
-	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7985818/7908012/css/fonts.css" />
+        (function () {
+          var ga = document.createElement("script");
+          ga.type = "text/javascript";
+          ga.async = true;
+          ga.src =
+            ("https:" == document.location.protocol
+              ? "https://ssl"
+              : "http://www") + ".google-analytics.com/ga.js";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+      <script
+        type="text/javascript"
+        src="/javascripts/libs/jquery-1.9.0.min.js"
+      ></script>
+      <script src="/javascripts/nicemohawk.js"></script>
 
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-32375259-1']);
-		_gaq.push(['_trackPageview']);
+      <title>Nice Mohawk</title>
+    </head>
 
-		(function() {
-			var ga = document.createElement('script');
-			ga.type = 'text/javascript';
-			ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-	<script type="text/javascript" src="/javascripts/libs/jquery-1.9.0.min.js"></script>
-	<script src="/javascripts/nicemohawk.js"></script>
-
-	<title>Nice Mohawk</title>
-
-</head>
-
-<body lang="en">
-	<div class="container">
-		<nav class="navbar navbar-expand-sm navbar-light bg-white">
-		  <a class="navbar-brand d-flex align-items-center" href="/">
-				<img id="nmlBrand" src="./images/nml-brand-icon.png" class="mohawk-brand pr-3"><span class="mohawk-brand-label">Nice Mohawk</span>
-			</a>
-			<div class="navbar-nav ml-auto d-flex flex-row">
-				<a class="nav-item nav-link mr-3" href="/">Home</a>
-				<a class="nav-item nav-link nml-header-link active" href="/about">About</a>
-			</div>
-		</nav>
-		<div class="row">
-			<div class="col-12 text-center align-self-center mt-2 pb-5 pb-3-sm">
-				<h1 class="about-title">About Us</h1>
-			</div>
-		</div>
-		<div class="row d-flex justify-content-around mb-5">
-			<div class="col-12 col-md-6 col-xl-4 pb-4 pb-md-0">
-				<div class="media pb-2">
-					<img src="./images/bob-profile-img.png" class="border-rounded align-self-end">
-					<div class="media-body align-self-end pl-2 d-flex flex-column justify-content-end">
-						<h5 class="media-title">Robert Cantoni</h5>
-						<span class="media-label">Co-Founder</span>
-					</div>
-				</div>
-				<div class="pt-4">
-					<span style="font-size: 18px; line-height: 26px;">
-					<p>
-						Bob is a product manager who helps teams build amazing digital products. As product lead at Jelly, he led the creation of an innovative voice app, leading to a successful launch partnership on the Google Home. At Lovely, he led mobile teams creating a suite of map-based mobile apps for millions of renters; the underlying technology powers three brands and is still in use after five years. Bob started his career creating Ita, a list-making app for iPad and iPhone that pioneered early iOS patterns like drag-to-rearrange and swipe-able drawers for lists.
-					</p>
-					<p class="mt-3">
-						Bob creates products that tell a story and sweat the details on behalf of users.
-					</p>
-					</span>
-					<div class="text-center pt-3">
-						<a class="btn btn-light" href="https://twitter.com/cantoni" style="border-radius: 48px;" target="_blank">
-							<img src="./images/twitter-logo.png" height="25px">
-							Twitter
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-md-6 col-xl-4">
-				<div class="media pb-2">
-					<img src="./images/ben-profile-img.png" class="border-rounded  align-self-end">
-					<div class="media-body align-self-end pl-2 d-flex flex-column justify-content-end">
-						<h5 class="media-title">Ben Lachman</h5>
-						<span class="media-label">Co-Founder</span>
-					</div>
-				</div>
-				<div class="pt-4">
-					<span style="font-size: 18px; line-height: 26px;">
-						<p>
-							Ben is an entrepreneur with 15+ years of experience building technology products and the businesses based on them. His experience ranges from the minutia of creating high quality user experiences, to the needs of apps scaling to hundreds of thousands of users. On the business side, he’s developed revenue models, user analytics, sales funnels, and fundraising pitches. As a consultant, Ben has worked with west coast startups, small businesses, and Fortune 500 companies.
-						</p>
-						<p clas="mt-3">
-							Ben loves products that create meaningful value, encourage creative experiences, and change our world.
-						</p>
-					</span>
-					<div class="text-center pt-3">
-						<a class="btn btn-light" style="border-radius: 48px;" href="https://twitter.com/blach" style="border-radius" target="_blank">
-							<img src="./images/twitter-logo.png" height="25px">
-							Twitter
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div><!-- /container -->
-  <div class="contact-footer">
-    <div class="d-flex justify-content-center align-items-center text-center">
-      <div class="pt-3">
-        <h4 class="text-white text-center pb-3 d-none d-sm-block">Want to Chat About a Project?</h4>
-        <div class="contact-btn btn btn-light">
-          👋 Say Hi! — <a href="mailto:ideas@nicemohawk.com" class="footer-link">ideas@nicemohawk.com</a>
+    <body lang="en">
+      <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white">
+          <a class="navbar-brand d-flex align-items-center" href="/">
+            <img
+              id="nmlBrand"
+              src="./images/nml-brand-icon.png"
+              class="mohawk-brand pr-3"
+            /><span class="mohawk-brand-label">Nice Mohawk</span>
+          </a>
+          <div class="navbar-nav ml-auto d-flex flex-row">
+            <a class="nav-item nav-link mr-3" href="/">Home</a>
+            <a class="nav-item nav-link nml-header-link active" href="/about"
+              >About</a
+            >
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-12 text-center align-self-center mt-2 pb-5 pb-3-sm">
+            <h1 class="about-title">About Us</h1>
+          </div>
         </div>
-        <div class="text-muted pt-5 d-none d-sm-block">
-        Copyright © 2024 Nice Mohawk Limited
+        <div class="row d-flex justify-content-around mb-5">
+          <div class="col-12 col-md-6 col-xl-4 pb-4 pb-md-0">
+            <div class="media pb-2">
+              <img
+                src="./images/bob-profile-img.png"
+                class="border-rounded align-self-end"
+              />
+              <div
+                class="media-body align-self-end pl-2 d-flex flex-column justify-content-end"
+              >
+                <h5 class="media-title">Robert Cantoni</h5>
+                <span class="media-label">Co-Founder</span>
+              </div>
+            </div>
+            <div class="pt-4">
+              <span style="font-size: 18px; line-height: 26px">
+                <p>
+                  Bob is a product manager who helps teams build amazing digital
+                  products. As product lead at Jelly, he led the creation of an
+                  innovative voice app, leading to a successful launch
+                  partnership on the Google Home. At Lovely, he led mobile teams
+                  creating a suite of map-based mobile apps for millions of
+                  renters; the underlying technology powers three brands and is
+                  still in use after five years. Bob started his career creating
+                  Ita, a list-making app for iPad and iPhone that pioneered
+                  early iOS patterns like drag-to-rearrange and swipe-able
+                  drawers for lists.
+                </p>
+                <p class="mt-3">
+                  Bob creates products that tell a story and sweat the details
+                  on behalf of users.
+                </p>
+              </span>
+              <div class="text-center pt-3">
+                <a
+                  class="btn btn-light"
+                  href="https://twitter.com/cantoni"
+                  style="border-radius: 48px"
+                  target="_blank"
+                >
+                  <img src="./images/twitter-logo.png" height="25px" />
+                  Twitter
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-4">
+            <div class="media pb-2">
+              <img
+                src="./images/ben-profile-img.png"
+                class="border-rounded align-self-end"
+              />
+              <div
+                class="media-body align-self-end pl-2 d-flex flex-column justify-content-end"
+              >
+                <h5 class="media-title">Ben Lachman</h5>
+                <span class="media-label">Co-Founder</span>
+              </div>
+            </div>
+            <div class="pt-4">
+              <span style="font-size: 18px; line-height: 26px">
+                <p>
+                  Ben is an entrepreneur with 15+ years of experience building
+                  technology products and the businesses based on them. His
+                  experience ranges from the minutia of creating high quality
+                  user experiences, to the needs of apps scaling to hundreds of
+                  thousands of users. On the business side, he’s developed
+                  revenue models, user analytics, sales funnels, and fundraising
+                  pitches. As a consultant, Ben has worked with west coast
+                  startups, small businesses, and Fortune 500 companies.
+                </p>
+                <p clas="mt-3">
+                  Ben loves products that create meaningful value, encourage
+                  creative experiences, and change our world.
+                </p>
+              </span>
+              <div class="text-center pt-3">
+                <a
+                  class="btn btn-light"
+                  style="border-radius: 48px"
+                  href="https://twitter.com/blach"
+                  style="border-radius"
+                  target="_blank"
+                >
+                  <img src="./images/twitter-logo.png" height="25px" />
+                  Twitter
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</body>
+      <!-- /container -->
+      <div class="contact-footer">
+        <div
+          class="d-flex justify-content-center align-items-center text-center"
+        >
+          <div class="pt-3">
+            <h4 class="text-white text-center pb-3 d-none d-sm-block">
+              Want to Chat About a Project?
+            </h4>
+            <div class="contact-btn btn btn-light">
+              👋 Say Hi! —
+              <a href="mailto:ideas@nicemohawk.com" class="footer-link"
+                >ideas@nicemohawk.com</a
+              >
+            </div>
+            <div class="text-muted pt-5 d-none d-sm-block">
+              Copyright © 2024 Nice Mohawk Limited
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
+  <script>
+    let b = ["#5ebd3e", "#ffb900", "#f78200", "#e23838", "#973999", "#009cdf"];
+    let m = [
+      "./images/mohawk5ebd3e.png",
+      "./images/mohawkffb900.png",
+      "./images/mohawkf78200.png",
+      "./images/mohawke23838.png",
+      "./images/mohawk973999.png",
+      "./images/mohawk009cdf.png",
+    ];
 
+    let i = Math.floor(Math.random() * b.length);
+
+    // brand color
+    let f = document.querySelector(".footer-link");
+    f.style.color = b[i];
+
+    // mohawk color
+    let h = document.getElementById("nmlBrand");
+    h.src = m[i];
+
+    // link underline color
+    let a = document.querySelector(".active");
+    a.style.borderBottom = `1px solid ${b[i]}`;
+  </script>
 </html>
-<script>
-let b = ['#5ebd3e', '#ffb900', '#f78200', '#e23838', '#973999', '#009cdf']
-let m = ['./images/mohawk5ebd3e.png', './images/mohawkffb900.png','./images/mohawkf78200.png', './images/mohawke23838.png', './images/mohawk973999.png', './images/mohawk009cdf.png']
-
-let i = Math.floor((Math.random()*b.length))
-
-// brand color
-let f = document.querySelector(".footer-link")
-f.style.color = b[i]
-
-// mohawk color
-let h = document.getElementById("nmlBrand")
-h.src = m[i]
-
-// link underline color
-let a = document.querySelector(".active")
-a.style.borderBottom = `1px solid ${b[i]}`
-</script>
